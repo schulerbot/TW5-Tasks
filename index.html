@@ -145,31 +145,21 @@ Error message and password prompt
 
 <li>$:/Import</li>
 
+<li>$:/Import!!popup-$:/plugins/schulerbot/TW5Tasks</li>
+
 <li>$:/isEncrypted</li>
+
+<li>$:/palette</li>
 
 <li>$:/plugins/ebalster/formula</li>
 
 <li>$:/plugins/inmysocks/Calendar</li>
 
-<li>$:/plugins/inmysocks/Calendar/Calendar Default Macros</li>
-
-<li>$:/plugins/inmysocks/Calendar/Calendar Table Style</li>
-
-<li>$:/plugins/inmysocks/Calendar/calendar-widget.js</li>
-
-<li>$:/plugins/inmysocks/Calendar/readme</li>
-
 <li>$:/plugins/schulerbot/TW5Tasks</li>
-
-<li>$:/plugins/schulerbot/TW5Tasks/module/createtask/title</li>
 
 <li>$:/plugins/schulerbot/TW5Tasks/tasktemplate/button1</li>
 
 <li>$:/plugins/schulerbot/TW5Tasks/tasktemplate/button10</li>
-
-<li>$:/plugins/schulerbot/TW5Tasks/tasktemplate/button10/areyousure</li>
-
-<li>$:/plugins/schulerbot/TW5Tasks/tasktemplate/button10/recurringdelete</li>
 
 <li>$:/plugins/schulerbot/TW5Tasks/tasktemplate/button2</li>
 
@@ -179,19 +169,13 @@ Error message and password prompt
 
 <li>$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5</li>
 
-<li>$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar</li>
-
 <li>$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6</li>
-
-<li>$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar</li>
 
 <li>$:/plugins/schulerbot/TW5Tasks/tasktemplate/button7</li>
 
 <li>$:/plugins/schulerbot/TW5Tasks/tasktemplate/button8</li>
 
 <li>$:/plugins/schulerbot/TW5Tasks/tasktemplate/button9</li>
-
-<li>$:/plugins/schulerbot/TW5Tasks/tasktemplate/button9/selector</li>
 
 <li>$:/plugins/TheDiveO/FontAwesome</li>
 
@@ -200,6 +184,10 @@ Error message and password prompt
 <li>$:/SiteTitle</li>
 
 <li>$:/state/plugin-info--1087675988-$:/plugins/schulerbot/TW5Tasks--1645022145</li>
+
+<li>$:/state/plugin-info--896887961-$:/plugins/schulerbot/TW5Tasks</li>
+
+<li>$:/state/plugin-info--896887961-$:/plugins/schulerbot/TW5Tasks--683111548</li>
 
 <li>$:/state/plugin-info-1332388478-$:/plugins/inmysocks/Calendar---1929150102</li>
 
@@ -231,7 +219,19 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
+<li>$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint</li>
+
+<li>$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth</li>
+
+<li>$:/themes/tiddlywiki/vanilla/metrics/tiddlerwidth</li>
+
+<li>$:/themes/tiddlywiki/vanilla/options/sidebarlayout</li>
+
 <li>Home</li>
+
+<li>Morning Mobility Stretches</li>
+
+<li>Pickup kids at Timmy's House</li>
 
 <li>Recurring Task</li>
 
@@ -240,6 +240,8 @@ Error message and password prompt
 <li>Task 22:18, 7th January 2019</li>
 
 <li>Task Dashboard</li>
+
+<li>Time Completed</li>
 
 </ul>
 </p>
@@ -9134,10 +9136,16 @@ Error message and password prompt
 <div status="complete" title="$:/Import">
 <pre>The following tiddlers were imported:
 
-# [[Task Dashboard]]</pre>
+# [[$:/plugins/inmysocks/Calendar/Calendar Default Macros]]</pre>
+</div>
+<div created="20190114021756191" creator="schulerbot" modified="20190114021758451" modifier="schulerbot" title="$:/Import!!popup-$:/plugins/schulerbot/TW5Tasks">
+<pre>no</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
+</div>
+<div created="20190114024520040" creator="schulerbot" modified="20190114024558059" modifier="schulerbot" title="$:/palette">
+<pre>$:/palettes/Vanilla</pre>
 </div>
 <div bag="default" created="20171209233132315" description="Spreadsheet-like formulas in TiddlyWiki." list="readme settings license" modified="20180802122445821" name="TiddlyFormula" plugin-type="plugin" revision="0" tags="Utilities" title="$:/plugins/ebalster/formula" type="application/json" version="0.2.3">
 <pre>{
@@ -9462,17 +9470,17 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div author="inmysocks" bag="default" core-version="&gt;=5.1.6" created="20180802122754845" creator="Schulerbot" dependents="" description="A calendar thing" list="readme license history" modified="20190108025224011" modifier="Schulerbot" plugin-type="plugin" revision="0" source="https://github.com/inmysocks/TW5-NoLearningRequired-Full" title="$:/plugins/inmysocks/Calendar" type="application/json" version="0.0.9">
+<div author="inmysocks" bag="default" core-version="&gt;=5.1.6" created="20180802122754845" creator="Schulerbot" dependents="" description="A calendar thing" list="readme license history" modified="20190108025224011" modifier="Schulerbot" plugin-type="plugin" revision="0" source="https://github.com/inmysocks/TW5-NoLearningRequired-Full" title="$:/plugins/inmysocks/Calendar" type="application/json" version="0.0.10">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/plugins/inmysocks/Calendar/Calendar Default Macros&quot;: {
-            &quot;text&quot;: &quot;\\define CalendarListDailyThingsFullDateString(day month year)\n&lt;$button class='tc-btn-invisible' style='width:100%;height:100%'&gt;\n&lt;$action-navigate $to=\&quot;$(day)$-$(month)$-$(year)$\&quot;/&gt;\n&lt;div style='height:100%;width:100%;position:relative;text-align:left;vertical-align:top;z-index=0'&gt;\n''$day$''&lt;br&gt;\n&lt;$list filter='[has[$day$-$month$-$year$]]-[[$:/temp/MakeCalendarEntry]]'&gt;\n&lt;$view field='title'/&gt;&lt;br&gt;\n&lt;/$list&gt;\n&lt;/div&gt;\n&lt;/$button&gt;\n\\end\n\n\\define CalendarListDailyThings(day month year)\n&lt;$button class='tc-btn-invisible' style='width:100%;height:100%'&gt;\n&lt;$action-navigate $to=\&quot;\&quot;\&quot;$day$-$month$-$year$\&quot;\&quot;\&quot;/&gt;\n&lt;div style='height:100%;width:100%;position:relative;text-align:left;vertical-align:top;z-index=0'&gt;\n''$day$''&lt;br&gt;\n&lt;$list filter='[day[$day$]month[$month$]year[$year$]]-[[$:/temp/MakeCalendarEntry]]'&gt;\n&lt;$view field='title'/&gt;&lt;br&gt;\n&lt;/$list&gt;\n&lt;/div&gt;\n&lt;/$button&gt;\n\\end\n\n\\define DateCreate(day month year weekday)\n&lt;$button class='tc-btn-invisible' style='width:100%;height:100%'&gt;\n&lt;$action-navigate $to=\&quot;\&quot;\&quot;$weekday$$day$$month$$year$\&quot;\&quot;\&quot;/&gt;\n&lt;div style='height:100%;width:100%;position:relative;text-align:left;vertical-align:top;z-index=0'&gt;\n''$day$''&lt;br&gt;\n&lt;$list filter='[day[$day$]month[$month$]year[$year$]]-[[$:/temp/MakeCalendarEntry]]'&gt;\n&lt;$view field='title'/&gt;&lt;br&gt;\n&lt;/$list&gt;\n&lt;/div&gt;\n&lt;/$button&gt;\n\\end\n\n\\define DateCreateold(day month year)\n&lt;$button class='tc-btn-invisible' style='width:100%;height:100%'&gt;\n&lt;$wikify name=\&quot;dia\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;now\&quot; format= \&quot;DDD0DDMMMYYYY\&quot; /&gt;\&quot;\&quot;\&quot;&gt;\n&lt;$action-navigate $to=&lt;&lt;dia&gt;&gt;/&gt;\n&lt;div style='height:100%;width:100%;position:relative;text-align:left;vertical-align:top;z-index=0'&gt;\n''$day$''&lt;br&gt;\n&lt;$list filter='[day[$day$]month[$month$]year[$year$]]-[[$:/temp/MakeCalendarEntry]]'&gt;\n&lt;$view field='title'/&gt;&lt;br&gt;\n&lt;/$list&gt;\n&lt;/div&gt;\n&lt;/$wikify&gt;\n&lt;/$button&gt;\n\\end\n\n\\define DueDateCreate(day month year weekday)\n&lt;$button class='tc-btn-invisible' style='width:100%;height:100%'&gt;\n&lt;$action-setfield $tiddler=&lt;&lt;taskObject&gt;&gt; $field=\&quot;duedate\&quot; $value=\&quot;\&quot;\&quot;$weekday$$day$$month$$year$\&quot;\&quot;\&quot;/&gt;\n&lt;div style='height:100%;width:100%;position:relative;text-align:left;vertical-align:top;z-index=0'&gt;\n''$day$''&lt;br&gt;\n&lt;$list filter='[day[$day$]month[$month$]year[$year$]]-[[$:/temp/MakeCalendarEntry]]'&gt;\n&lt;$view field='title'/&gt;&lt;br&gt;\n&lt;/$list&gt;\n&lt;/div&gt;\n&lt;/$button&gt;\n\\end&quot;,
+            &quot;text&quot;: &quot;\\define CalendarListDailyThingsFullDateString(day month year)\n&lt;$button class='tc-btn-invisible' style='width:100%;height:100%'&gt;\n&lt;$action-navigate $to=\&quot;$(day)$-$(month)$-$(year)$\&quot;/&gt;\n&lt;div style='height:100%;width:100%;position:relative;text-align:left;vertical-align:top;z-index=0'&gt;\n''$day$''&lt;br&gt;\n&lt;$list filter='[has[$day$-$month$-$year$]]-[[$:/temp/MakeCalendarEntry]]'&gt;\n&lt;$view field='title'/&gt;&lt;br&gt;\n&lt;/$list&gt;\n&lt;/div&gt;\n&lt;/$button&gt;\n\\end\n\n\\define CalendarListDailyThings(day month year)\n&lt;$button class='tc-btn-invisible' style='width:100%;height:100%'&gt;\n&lt;$action-navigate $to=\&quot;\&quot;\&quot;$day$-$month$-$year$\&quot;\&quot;\&quot;/&gt;\n&lt;div style='height:100%;width:100%;position:relative;text-align:left;vertical-align:top;z-index=0'&gt;\n''$day$''&lt;br&gt;\n&lt;$list filter='[day[$day$]month[$month$]year[$year$]]-[[$:/temp/MakeCalendarEntry]]'&gt;\n&lt;$view field='title'/&gt;&lt;br&gt;\n&lt;/$list&gt;\n&lt;/div&gt;\n&lt;/$button&gt;\n\\end\n\n\\define DateCreateTest(day month year weekday)\n&lt;$button class='tc-btn-invisible' style='width:100%;height:100%'&gt;\n&lt;$action-navigate $to=\&quot;\&quot;\&quot;$weekday$$day$$month$$year$\&quot;\&quot;\&quot;/&gt;\n&lt;div style='height:100%;width:100%;position:relative;text-align:left;vertical-align:top;z-index=0'&gt;\n''$day$''&lt;br&gt;\n&lt;$wikify name=\&quot;dateTag\&quot; text=\&quot;\&quot;\&quot;$weekday$$day$$month$$year$\&quot;\&quot;\&quot;&gt;\n&lt;$text text=\&quot;Tasks Completed:\&quot;/&gt;&lt;$list filter=\&quot;[tag[Task]tag&lt;dateTag&gt;count[]]\&quot;/&gt;\n&lt;/$wikify&gt;\n&lt;/div&gt;\n&lt;/$button&gt;\n\\end\n\n\\define DateCreate(day month year weekday)\n&lt;$button class='tc-btn-invisible' style='width:100%;height:100%'&gt;\n&lt;$action-navigate $to=\&quot;\&quot;\&quot;$weekday$$day$$month$$year$\&quot;\&quot;\&quot;/&gt;\n&lt;div style='height:100%;width:100%;position:relative;text-align:left;vertical-align:top;z-index=0'&gt;\n''$day$''&lt;br&gt;\n&lt;$list filter='[day[$day$]month[$month$]year[$year$]]-[[$:/temp/MakeCalendarEntry]]'&gt;\n&lt;$view field='title'/&gt;&lt;br&gt;\n&lt;/$list&gt;\n&lt;/div&gt;\n&lt;/$button&gt;\n\\end\n\n\\define DueDateCreate(day month year weekday)\n&lt;$button class='tc-btn-invisible' style='width:100%;height:100%'&gt;\n&lt;$action-setfield $tiddler=&lt;&lt;taskObject&gt;&gt; $field=\&quot;duedate\&quot; $value=\&quot;\&quot;\&quot;$weekday$$day$$month$$year$\&quot;\&quot;\&quot;/&gt;\n&lt;$action-deletetiddler $filter=\&quot;[prefix[$:/state/TW5Tasks/menu]]\&quot;/&gt;\n&lt;$action-deletetiddler $filter=\&quot;[prefix[$:/state/TW5Tasks/calendar]]\&quot;/&gt;\n&lt;div style='height:100%;width:100%;position:relative;text-align:left;vertical-align:top;z-index=0'&gt;\n''$day$''&lt;br&gt;\n&lt;$list filter='[day[$day$]month[$month$]year[$year$]]-[[$:/temp/MakeCalendarEntry]]'&gt;\n&lt;$view field='title'/&gt;&lt;br&gt;\n&lt;/$list&gt;\n&lt;/div&gt;\n&lt;/$button&gt;\n\\end&quot;,
             &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
             &quot;title&quot;: &quot;$:/plugins/inmysocks/Calendar/Calendar Default Macros&quot;,
             &quot;tags&quot;: &quot;TW5Calendar $:/tags/Macro&quot;,
             &quot;revision&quot;: &quot;0&quot;,
-            &quot;modifier&quot;: &quot;Schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181129032258104&quot;,
+            &quot;modifier&quot;: &quot;schulerbot&quot;,
+            &quot;modified&quot;: &quot;20190113183200887&quot;,
             &quot;creator&quot;: &quot;Schulerbot&quot;,
             &quot;created&quot;: &quot;20150212024632244&quot;,
             &quot;bag&quot;: &quot;default&quot;
@@ -9481,22 +9489,20 @@ Error message and password prompt
             &quot;text&quot;: &quot;.calendar-table {\n\tborder: 0px;\n    overflow: hidden;\n    vertical-align: top;\n    width: 100%;\n}\n\n.calendar-table table {\n\twidth:100%;\n}\n\n.calendar-table td, th {\n    width: 14%;\n    vertical-align: top;\n}\n\n.calendar-table td {\n        height: 100px;\n        font-size: 3vw);\n}\n\n.calendar-tablesmall {\n\tborder: 0px;\n    overflow: auto;\n    vertical-align: top;\n   max-width: 100%;\n}\n\n.calendar-tablesmall table {\n\tmax-width: 50%;\n}\n\n.calendar-tablesmall td, th {\n    width: 14%;\n    vertical-align: top;\n}\n\n.calendar-tablesmall td {\n        height: 14%;\n}\n\n.calendar-tablesmall today {\n        background-color: green;\n}&quot;,
             &quot;type&quot;: &quot;text/css&quot;,
             &quot;title&quot;: &quot;$:/plugins/inmysocks/Calendar/Calendar Table Style&quot;,
-            &quot;tags&quot;: &quot;TW5Calendar $:/tags/Stylesheet&quot;,
             &quot;revision&quot;: &quot;0&quot;,
             &quot;modifier&quot;: &quot;Schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181015023017829&quot;,
+            &quot;modified&quot;: &quot;20190108025251275&quot;,
             &quot;creator&quot;: &quot;Schulerbot&quot;,
             &quot;created&quot;: &quot;20150212024632244&quot;,
             &quot;bag&quot;: &quot;default&quot;
         },
         &quot;$:/plugins/inmysocks/Calendar/readme&quot;: {
-            &quot;text&quot;: &quot;UPDATE: This has been officially forked!  Disregard version number and fix it, then fork on GitHub\n\nTo see this plugin in use you can see it on my page [[here|http://ooktech.com/jed/externalbrain/#Calendar%20Archives]]\n\nThis plugin has:\n\n*The calendar-month widget\n*Default css class for the calendar month widget\n*Default macro for calendar days\n*This readme\n\n!The calendar-month widget\n\nUsage: `&lt;$calendar-month year=YYYY month=MM day_macro=someMacro class=someCSSClass/&gt;`\n\nContent of the `&lt;$calendar-month&gt;` widget is ignored.\n\n|!Attribute |!Description |\n|year |The year that the month displayed is from. It must be in 4 digit YYYY format and has no default value. |\n|month |The month to display. See list below for valid month values. month has no default value. |\n|day_macro |(optional) The macro that defines the content of each calendar day. It is passed the parameter `day` with the value of the current day of the month. Defaluts to `CalendarListDailyThings` defined in [[Calendar Default Macros|$:/plugins/inmysocks/Calendar/Calendar Default Macros]] |\n|class |(optional) A css class to use. Defaults to the class `calendar-table` defined in [[Calendar Table Style|$:/plugins/inmysocks/Calendar/Calendar Table Style]] |\n\n!The default ~CalendarListDailyThings macro\n\nThis macro lists any tiddlers that have fields called `day`, `month` and `year` in the matching calendar day. If you click on a cell than a tiddler with a title in the form of (day)-(month)-(year) is opened.\n\n!Month values\n\nThis is a complete list of the month values the widget understands, if you want some other format added leave a message at [[my site|http://www.inmysocks.tiddlyspot.com]].:\n\n1\n01\nJan\nJan.\nJanuary\n\n2\n02\nFeb\nFeb.\nFebruary\n\n3\n03\nMar\nMar.\nMarch\n\n4\n04\nApr\nApr.\nApril\n\n5\n05\nMay\n\n6\n06\nJun\nJun.\nJune\n\n7\n07\nJul\nJul.\nJuly\n\n8\n08\nAug\nAug.\nAugust\n\n9\n09\nSep\nSep.\nSept\nSept.\nSeptember\n\n10\nOct\nOct.\nOctober\n\n11\nNov\nNov.\nNovember\n\n12\nDec\nDec.\nDecember\n\n!Example:\n\n```\nSelect year: &lt;$select field='year'&gt;&lt;$list filter='1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000'&gt;&lt;option&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/option&gt;&lt;/$list&gt;&lt;/$select&gt;\n\nSelect month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 10 11 12'&gt;&lt;option&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/option&gt;&lt;/$list&gt;&lt;/$select&gt;\n\n&lt;$calendar-month year={{!!year}} month={{!!month}}/&gt;\n```\n\nSelect year: &lt;$select field='year'&gt;&lt;$list filter='1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000'&gt;&lt;option&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/option&gt;&lt;/$list&gt;&lt;/$select&gt;\n\nSelect month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 10 11 12'&gt;&lt;option&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/option&gt;&lt;/$list&gt;&lt;/$select&gt;\n\n&lt;$calendar-month year={{!!year}} month={{!!month}}/&gt;\n&quot;,
+            &quot;text&quot;: &quot;This plugin is a modified version of the one found below.\n\nTo see this plugin in use you can see it on my page [[here|http://ooktech.com/jed/externalbrain/#Calendar%20Archives]]\n\nThis plugin has:\n\n*The calendar-month widget\n*Default css class for the calendar month widget\n*Default macro for calendar days\n*This readme\n\n!The calendar-month widget\n\nUsage: `&lt;$calendar-month year=YYYY month=MM day_macro=someMacro class=someCSSClass/&gt;`\n\nContent of the `&lt;$calendar-month&gt;` widget is ignored.\n\n|!Attribute |!Description |\n|year |The year that the month displayed is from. It must be in 4 digit YYYY format and has no default value. |\n|month |The month to display. See list below for valid month values. month has no default value. |\n|day_macro |(optional) The macro that defines the content of each calendar day. It is passed the parameter `day` with the value of the current day of the month. Defaluts to `CalendarListDailyThings` defined in [[Calendar Default Macros|$:/plugins/inmysocks/Calendar/Calendar Default Macros]] |\n|class |(optional) A css class to use. Defaults to the class `calendar-table` defined in [[Calendar Table Style|$:/plugins/inmysocks/Calendar/Calendar Table Style]] |\n\n!The default ~CalendarListDailyThings macro\n\nThis macro lists any tiddlers that have fields called `day`, `month` and `year` in the matching calendar day. If you click on a cell than a tiddler with a title in the form of (day)-(month)-(year) is opened.\n\n!Month values\n\nThis is a complete list of the month values the widget understands, if you want some other format added leave a message at [[my site|http://www.inmysocks.tiddlyspot.com]].:\n\n1\n01\nJan\nJan.\nJanuary\n\n2\n02\nFeb\nFeb.\nFebruary\n\n3\n03\nMar\nMar.\nMarch\n\n4\n04\nApr\nApr.\nApril\n\n5\n05\nMay\n\n6\n06\nJun\nJun.\nJune\n\n7\n07\nJul\nJul.\nJuly\n\n8\n08\nAug\nAug.\nAugust\n\n9\n09\nSep\nSep.\nSept\nSept.\nSeptember\n\n10\nOct\nOct.\nOctober\n\n11\nNov\nNov.\nNovember\n\n12\nDec\nDec.\nDecember\n\n!Example:\n\n```\nSelect year: &lt;$select field='year'&gt;&lt;$list filter='1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000'&gt;&lt;option&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/option&gt;&lt;/$list&gt;&lt;/$select&gt;\n\nSelect month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 10 11 12'&gt;&lt;option&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/option&gt;&lt;/$list&gt;&lt;/$select&gt;\n\n&lt;$calendar-month year={{!!year}} month={{!!month}}/&gt;\n```\n\nSelect year: &lt;$select field='year'&gt;&lt;$list filter='1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000'&gt;&lt;option&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/option&gt;&lt;/$list&gt;&lt;/$select&gt;\n\nSelect month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 10 11 12'&gt;&lt;option&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/option&gt;&lt;/$list&gt;&lt;/$select&gt;\n\n&lt;$calendar-month year={{!!year}} month={{!!month}}/&gt;\n&quot;,
             &quot;year&quot;: &quot;1990&quot;,
             &quot;title&quot;: &quot;$:/plugins/inmysocks/Calendar/readme&quot;,
-            &quot;tags&quot;: &quot;TW5Calendar&quot;,
             &quot;month&quot;: &quot;1&quot;,
             &quot;modifier&quot;: &quot;Schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181217032815861&quot;,
+            &quot;modified&quot;: &quot;20190108025414666&quot;,
             &quot;creator&quot;: &quot;Schulerbot&quot;,
             &quot;created&quot;: &quot;20181015022934993&quot;
         },
@@ -9504,11 +9510,10 @@ Error message and password prompt
             &quot;text&quot;: &quot;/*\\\ntitle: $:/plugins/inmysocks/Calendar/calendar-widget.js\ntype: application/javascript\nmodule-type: widget\n\nA widget that creates a calendar given a year and month.\n\n\\*/\n\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\nvar Widget = require(\&quot;$:/core/modules/widgets/widget.js\&quot;).widget;\nvar widgets;\nvar container;\n\nvar Calendar = function(parseTreeNode,options) {\n\tthis.initialise(parseTreeNode,options);\n};\n\n/*\nInherit from the base widget class\n*/\nCalendar.prototype = new Widget();\n\n/*\nRender this widget into the DOM\n*/\nCalendar.prototype.render = function(parent,nextSibling) {\n\tthis.parentDomNode = parent;\n\tthis.computeAttributes();\n\tthis.execute();\n\tvar domNode = this.document.createElement(\&quot;div\&quot;);\n\tparent.insertBefore(domNode,nextSibling);\n\tdomNode.className = this.CalendarCSS;\n\tthis.renderChildren(domNode,null);\n\tthis.domNodes.push(domNode);\n};\n\n/*\nCompute the internal state of the widget\n*/\nCalendar.prototype.execute = function() {\n\t//Get widget attributes.\n\tvar thisMonth = this.getAttribute(\&quot;month\&quot;,-1);\n\tvar thisYear = this.getAttribute(\&quot;year\&quot;,-1);\n\tvar thisDayMacro = this.getAttribute(\&quot;day_macro\&quot;,\&quot;CalendarListDailyThings\&quot;);\n\tvar thisCalendarCSS = this.getAttribute(\&quot;class\&quot;, \&quot;calendar-table\&quot;);\n\n\tvar badYear;\n\tvar isLeap = 0;\n\tvar numDays;\n\tvar calendarString;\n\tvar thisMonthNum;\n\n\t//Check to make sure a 4 digit year was passed\n\tif(thisYear/1000 &lt; 1 || thisYear === -1 || isNaN(parseFloat(thisYear))) {\n\t\tbadYear = 1;\n\t} else {\n\t\tbadYear = 0;\n\t}\n\n\t//If it is February, check if the current year is a leap year. Then get the number of days in the current month.\n\tif(thisMonth === \&quot;2\&quot; || thisMonth === \&quot;02\&quot; || thisMonth === \&quot;Feb\&quot; || thisMonth === \&quot;Feb.\&quot; || thisMonth === \&quot;February\&quot;) {\n\t\tisLeap = ((((thisYear % 4) === 0) &amp;&amp; (thisYear % 100 !== 0)) || (((thisYear % 100) === 0) &amp;&amp; (thisYear % 400) === 0));\n\t}\n\tswitch (thisMonth){\n\t\tcase \&quot;1\&quot;: numDays = 31; thisMonthNum = 1; break;\n\t\tcase \&quot;01\&quot;: numDays = 31; thisMonthNum = 1; break;\n\t\tcase \&quot;Jan\&quot;: numDays = 31; thisMonthNum = 1; break;\n\t\tcase \&quot;Jan.\&quot;: numDays = 31; thisMonthNum = 1; break;\n\t\tcase \&quot;January\&quot;: numDays = 31; thisMonthNum = 1; break;\n\t\tcase \&quot;2\&quot;: numDays = isLeap ? 29:28; thisMonthNum = 2; break;\n\t\tcase \&quot;02\&quot;: numDays = isLeap ? 29:28; thisMonthNum = 2; break;\n\t\tcase \&quot;Feb\&quot;: numDays = isLeap ? 29:28; thisMonthNum = 2; break;\n\t\tcase \&quot;Feb.\&quot;: numDays = isLeap ? 29:28; thisMonthNum = 2; break;\n\t\tcase \&quot;February\&quot;: numDays = isLeap ? 29:28; thisMonthNum = 2; break;\n\t\tcase \&quot;3\&quot;: numDays = 31; thisMonthNum = 3; break;\n\t\tcase \&quot;03\&quot;: numDays = 31; thisMonthNum = 3; break;\n\t\tcase \&quot;Mar\&quot;: numDays = 31; thisMonthNum = 3; break;\n\t\tcase \&quot;Mar.\&quot;: numDays = 31; thisMonthNum = 3; break;\n\t\tcase \&quot;March\&quot;: numDays = 31; thisMonthNum = 3; break;\n\t\tcase \&quot;4\&quot;: numDays = 30; thisMonthNum = 4; break;\n\t\tcase \&quot;04\&quot;: numDays = 30; thisMonthNum = 4; break;\n\t\tcase \&quot;Apr\&quot;: numDays = 30; thisMonthNum = 4; break;\n\t\tcase \&quot;Apr.\&quot;: numDays = 30; thisMonthNum = 4; break;\n\t\tcase \&quot;April\&quot;: numDays = 30; thisMonthNum = 4; break;\n\t\tcase \&quot;5\&quot;: numDays = 31; thisMonthNum = 5; break;\n\t\tcase \&quot;05\&quot;: numDays = 31; thisMonthNum = 5; break;\n\t\tcase \&quot;May\&quot;: numDays = 31; thisMonthNum = 5; break;\n\t\tcase \&quot;6\&quot;: numDays = 30; thisMonthNum = 6; break;\n\t\tcase \&quot;06\&quot;: numDays = 30; thisMonthNum = 6; break;\n\t\tcase \&quot;Jun\&quot;: numDays = 30; thisMonthNum = 6; break;\n\t\tcase \&quot;Jun.\&quot;: numDays = 30; thisMonthNum = 6; break;\n\t\tcase \&quot;June\&quot;: numDays = 30; thisMonthNum = 6; break;\n\t\tcase \&quot;7\&quot;: numDays = 31; thisMonthNum = 7; break;\n\t\tcase \&quot;07\&quot;: numDays = 31; thisMonthNum = 7; break;\n\t\tcase \&quot;Jul\&quot;: numDays = 31; thisMonthNum = 7; break;\n\t\tcase \&quot;Jul.\&quot;: numDays = 31; thisMonthNum = 7; break;\n\t\tcase \&quot;July\&quot;: numDays = 31; thisMonthNum = 7; break;\n\t\tcase \&quot;8\&quot;: numDays = 31; thisMonthNum = 8; break;\n\t\tcase \&quot;08\&quot;: numDays = 31; thisMonthNum = 8; break;\n\t\tcase \&quot;Aug\&quot;: numDays = 31; thisMonthNum = 8; break;\n\t\tcase \&quot;Aug.\&quot;: numDays = 31; thisMonthNum = 8; break;\n\t\tcase \&quot;August\&quot;: numDays = 31; thisMonthNum = 8; break;\n\t\tcase \&quot;9\&quot;: numDays = 30; thisMonthNum = 9; break;\n\t\tcase \&quot;09\&quot;: numDays = 30; thisMonthNum = 9; break;\n\t\tcase \&quot;Sep\&quot;: numDays = 30; thisMonthNum = 9; break;\n\t\tcase \&quot;Sep.\&quot;: numDays = 30; thisMonthNum = 9; break;\n\t\tcase \&quot;Sept\&quot;: numDays = 30; thisMonthNum = 9; break;\n\t\tcase \&quot;Sept.\&quot;: numDays = 30; thisMonthNum = 9; break;\n\t\tcase \&quot;September\&quot;: numDays = 30; thisMonthNum = 9; break;\n\t\tcase \&quot;10\&quot;: numDays = 31; thisMonthNum = 10; break;\n\t\tcase \&quot;Oct\&quot;: numDays = 31; thisMonthNum = 10; break;\n\t\tcase \&quot;Oct.\&quot;: numDays = 31; thisMonthNum = 10; break;\n\t\tcase \&quot;October\&quot;: numDays = 31; thisMonthNum = 10; break;\n\t\tcase \&quot;11\&quot;: numDays = 30; thisMonthNum = 11; break;\n\t\tcase \&quot;Nov\&quot;: numDays = 30; thisMonthNum = 11; break;\n\t\tcase \&quot;Nov.\&quot;: numDays = 30; thisMonthNum = 11; break;\n\t\tcase \&quot;November\&quot;: numDays = 30; thisMonthNum = 11; break;\n\t\tcase \&quot;12\&quot;: numDays = 31; thisMonthNum = 12; break;\n\t\tcase \&quot;Dec\&quot;: numDays = 31; thisMonthNum = 12; break;\n\t\tcase \&quot;Dec.\&quot;: numDays = 31; thisMonthNum = 12; break;\n\t\tcase \&quot;December\&quot;: numDays = 31; thisMonthNum = 12; break;\n\t\tdefault: numDays = -1;\t\t\n\t}\n\n\tif(badYear === 1 || numDays === -1) {\n\t\t//If the input doesn't make sense give an error.\n\t\tvar parser = this.wiki.parseText(\&quot;text/vnd.tiddlywiki\&quot;,\&quot;Invalid month or year. Years need to be 4 digits, months must be given as a numeric value from 1...12.\&quot;,{parseAsInline: false});\n    \tvar parseTreeNodes = parser ? parser.tree : [];\n\t\tthis.CalendarCSS = thisCalendarCSS;\n\t\tthis.makeChildWidgets(parseTreeNodes);\n\t\tthis.innerHTML = \&quot;Invalid month or year. Years need to be 4 digits, see readme for accepted month names.\&quot;;\n\t} else {\n\t\t//Get the first of the month to base everything else off of.\n\t\tvar firstDate = new Date(thisYear,thisMonthNum-1,1);\n\t\tvar startingDay = firstDate.getDay();\n                var today = new Date();\n                var todayday = today.getDate();\n\t\tvar todaymonth = today.getMonth()+1;\n                var todayyear = today.getFullYear();\n                \n\n\t\t//Make the first week, adding empty days to the front as needed.\n\t\tvar currentDate = 1;\n//Changed Table Headings below to Single Letters for Formatting.\n\t\tcalendarString = \&quot;&lt;table&gt;&lt;tr&gt;&lt;th&gt;S&lt;/th&gt;&lt;th&gt;M&lt;/th&gt;&lt;th&gt;T&lt;/th&gt;&lt;th&gt;W&lt;/th&gt;&lt;th&gt;T&lt;/th&gt;&lt;th&gt;F&lt;/th&gt;&lt;th&gt;S&lt;/th&gt;&lt;/tr&gt;\&quot;;\n\t\twhile(currentDate &lt;= numDays) {\n\t\t\tcalendarString = calendarString + \&quot;&lt;tr&gt;\&quot;;\n\t\t\tfor(var i = 0; i &lt; 7; i++) {\n\n\n//Added by Schulerbot to pick the correct day of the week to append to the front of the tiddler when you click on the calendar\n                var currentDay = new Date(thisYear,thisMonthNum-1,currentDate)\n                var weekday = new Array(7);\n                      weekday[0] = \&quot;Sun\&quot;;\n                      weekday[1] = \&quot;Mon\&quot;;\n                      weekday[2] = \&quot;Tue\&quot;;\n                      weekday[3] = \&quot;Wed\&quot;;\n                      weekday[4] = \&quot;Thu\&quot;;\n                      weekday[5] = \&quot;Fri\&quot;;\n                      weekday[6] = \&quot;Sat\&quot;;\n                var dayOfWeek = weekday[currentDay.getDay()];\n\n//Added by Schulerbot to have the tiddler title be the month name\n\n                var monthName = new Array(12);\n                      monthName[0] = \&quot;Jan\&quot;;\n                      monthName[1] = \&quot;Feb\&quot;;\n                      monthName[2] = \&quot;Mar\&quot;;\n                      monthName[3] = \&quot;Apr\&quot;;\n                      monthName[4] = \&quot;May\&quot;;\n                      monthName[5] = \&quot;Jun\&quot;;\n                      monthName[6] = \&quot;Jul\&quot;;\n                      monthName[7] = \&quot;Aug\&quot;;\n                      monthName[8] = \&quot;Sep\&quot;;\n                      monthName[9] = \&quot;Oct\&quot;;\n                      monthName[10] = \&quot;Nov\&quot;;\n                      monthName[11] = \&quot;Dec\&quot;;\n                var monthOfYear = monthName[currentDay.getMonth()];\n\nfunction pad(num) {\n    var s = \&quot;0\&quot; + num;\n    return s.substr(s.length-2);\n}\n             \nvar currentDateString = pad(currentDate);\n//end of added code\n\n\n\n\t\t\t\tif(currentDate === 1 &amp;&amp; i &lt; startingDay) {\n\t\t\t\t\tcalendarString = calendarString + \&quot;&lt;td&gt;&lt;/td&gt;\&quot;;\n\t\t\t\t} else if(currentDate &lt;= numDays) {\n\n//Added\n//\&quot; weekday=\&quot; + dayOfWeek + \&quot;\n//and\n//swapped out thisMonth for monthOfYear\n//in the below expression\n//\n\nif(todayday == currentDate &amp;&amp; todaymonth ==thisMonthNum &amp;&amp; todayyear == thisYear){\n\n\n\t\t\t\t\tcalendarString = calendarString + \&quot;&lt;td&gt;&lt;today&gt;&lt;$macrocall $name='\&quot; + thisDayMacro + \&quot;' day=\&quot; + currentDateString + \&quot; month=\&quot; + monthOfYear + \&quot; year=\&quot; + thisYear + \&quot; weekday=\&quot; + dayOfWeek + \&quot;/&gt;&lt;/today&gt;&lt;/td&gt;\&quot;;\n\t\t\t\t\tcurrentDate++;\n\n                                         }\nelse{\n\n\n\t\t\t\t\tcalendarString = calendarString + \&quot;&lt;td&gt;&lt;$macrocall $name='\&quot; + thisDayMacro + \&quot;' day=\&quot; + currentDateString + \&quot; month=\&quot; + monthOfYear + \&quot; year=\&quot; + thisYear + \&quot; weekday=\&quot; + dayOfWeek + \&quot;/&gt;&lt;/td&gt;\&quot;;\n\t\t\t\t\tcurrentDate++;\n\n         }\n\t\t\t\t} if(currentDate &gt; numDays &amp;&amp; i &lt; 6) {\n\t\t\t\t\tcalendarString = calendarString + \&quot;&lt;td&gt;&lt;/td&gt;\&quot;;\n\t\t\t\t}\n\t\t\t}\n\t\t\tcalendarString = calendarString + \&quot;&lt;/tr&gt;\&quot;;\n\t\t}\n\t\tcalendarString = calendarString + \&quot;&lt;/table&gt;\&quot;;\n\t}\n\n\n\tvar stringPassed = calendarString;\n\tvar parser = this.wiki.parseText(\&quot;text/vnd.tiddlywiki\&quot;,calendarString,{parseAsInline: false});\n    var parseTreeNodes = parser ? parser.tree : [];\n\tthis.CalendarCSS = thisCalendarCSS;\n\tthis.makeChildWidgets(parseTreeNodes);\n};\n\n/*\nRefresh the widget by ensuring our attributes are up to date\n*/\nCalendar.prototype.refresh = function(changedTiddlers) {\n\tvar changedAttributes = this.computeAttributes();\n\tif(changedAttributes[\&quot;month\&quot;] || changedAttributes[\&quot;year\&quot;] || changedAttributes[\&quot;day_macro\&quot;] || changedAttributes[\&quot;class\&quot;]) {\n\t\tthis.refreshSelf();\n\t\treturn true;\n\t}\n\treturn this.refreshChildren(changedTiddlers);\n};\n\nexports[\&quot;calendar-month\&quot;] = Calendar;\n\n})();&quot;,
             &quot;type&quot;: &quot;application/javascript&quot;,
             &quot;title&quot;: &quot;$:/plugins/inmysocks/Calendar/calendar-widget.js&quot;,
-            &quot;tags&quot;: &quot;TW5Calendar&quot;,
             &quot;revision&quot;: &quot;0&quot;,
             &quot;module-type&quot;: &quot;widget&quot;,
             &quot;modifier&quot;: &quot;Schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181125174227234&quot;,
+            &quot;modified&quot;: &quot;20190108025302266&quot;,
             &quot;creator&quot;: &quot;Schulerbot&quot;,
             &quot;created&quot;: &quot;20180803133123548&quot;,
             &quot;bag&quot;: &quot;default&quot;
@@ -9516,498 +9521,17 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div bag="default" created="20150212024632244" creator="Schulerbot" modified="20190108025239465" modifier="Schulerbot" revision="0" tags="$:/tags/Macro" title="$:/plugins/inmysocks/Calendar/Calendar Default Macros" type="text/vnd.tiddlywiki">
-<pre>\define CalendarListDailyThingsFullDateString(day month year)
-&lt;$button class='tc-btn-invisible' style='width:100%;height:100%'&gt;
-&lt;$action-navigate $to=&quot;$(day)$-$(month)$-$(year)$&quot;/&gt;
-&lt;div style='height:100%;width:100%;position:relative;text-align:left;vertical-align:top;z-index=0'&gt;
-''$day$''&lt;br&gt;
-&lt;$list filter='[has[$day$-$month$-$year$]]-[[$:/temp/MakeCalendarEntry]]'&gt;
-&lt;$view field='title'/&gt;&lt;br&gt;
-&lt;/$list&gt;
-&lt;/div&gt;
-&lt;/$button&gt;
-\end
-
-\define CalendarListDailyThings(day month year)
-&lt;$button class='tc-btn-invisible' style='width:100%;height:100%'&gt;
-&lt;$action-navigate $to=&quot;&quot;&quot;$day$-$month$-$year$&quot;&quot;&quot;/&gt;
-&lt;div style='height:100%;width:100%;position:relative;text-align:left;vertical-align:top;z-index=0'&gt;
-''$day$''&lt;br&gt;
-&lt;$list filter='[day[$day$]month[$month$]year[$year$]]-[[$:/temp/MakeCalendarEntry]]'&gt;
-&lt;$view field='title'/&gt;&lt;br&gt;
-&lt;/$list&gt;
-&lt;/div&gt;
-&lt;/$button&gt;
-\end
-
-\define DateCreate(day month year weekday)
-&lt;$button class='tc-btn-invisible' style='width:100%;height:100%'&gt;
-&lt;$action-navigate $to=&quot;&quot;&quot;$weekday$$day$$month$$year$&quot;&quot;&quot;/&gt;
-&lt;div style='height:100%;width:100%;position:relative;text-align:left;vertical-align:top;z-index=0'&gt;
-''$day$''&lt;br&gt;
-&lt;$list filter='[day[$day$]month[$month$]year[$year$]]-[[$:/temp/MakeCalendarEntry]]'&gt;
-&lt;$view field='title'/&gt;&lt;br&gt;
-&lt;/$list&gt;
-&lt;/div&gt;
-&lt;/$button&gt;
-\end
-
-\define DateCreateold(day month year)
-&lt;$button class='tc-btn-invisible' style='width:100%;height:100%'&gt;
-&lt;$wikify name=&quot;dia&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;now&quot; format= &quot;DDD0DDMMMYYYY&quot; /&gt;&quot;&quot;&quot;&gt;
-&lt;$action-navigate $to=&lt;&lt;dia&gt;&gt;/&gt;
-&lt;div style='height:100%;width:100%;position:relative;text-align:left;vertical-align:top;z-index=0'&gt;
-''$day$''&lt;br&gt;
-&lt;$list filter='[day[$day$]month[$month$]year[$year$]]-[[$:/temp/MakeCalendarEntry]]'&gt;
-&lt;$view field='title'/&gt;&lt;br&gt;
-&lt;/$list&gt;
-&lt;/div&gt;
-&lt;/$wikify&gt;
-&lt;/$button&gt;
-\end
-
-\define DueDateCreate(day month year weekday)
-&lt;$button class='tc-btn-invisible' style='width:100%;height:100%'&gt;
-&lt;$action-setfield $tiddler=&lt;&lt;taskObject&gt;&gt; $field=&quot;duedate&quot; $value=&quot;&quot;&quot;$weekday$$day$$month$$year$&quot;&quot;&quot;/&gt;
-&lt;div style='height:100%;width:100%;position:relative;text-align:left;vertical-align:top;z-index=0'&gt;
-''$day$''&lt;br&gt;
-&lt;$list filter='[day[$day$]month[$month$]year[$year$]]-[[$:/temp/MakeCalendarEntry]]'&gt;
-&lt;$view field='title'/&gt;&lt;br&gt;
-&lt;/$list&gt;
-&lt;/div&gt;
-&lt;/$button&gt;
-\end</pre>
-</div>
-<div bag="default" created="20150212024632244" creator="Schulerbot" modified="20190108025251275" modifier="Schulerbot" revision="0" title="$:/plugins/inmysocks/Calendar/Calendar Table Style" type="text/css">
-<pre>.calendar-table {
-	border: 0px;
-    overflow: hidden;
-    vertical-align: top;
-    width: 100%;
-}
-
-.calendar-table table {
-	width:100%;
-}
-
-.calendar-table td, th {
-    width: 14%;
-    vertical-align: top;
-}
-
-.calendar-table td {
-        height: 100px;
-        font-size: 3vw);
-}
-
-.calendar-tablesmall {
-	border: 0px;
-    overflow: auto;
-    vertical-align: top;
-   max-width: 100%;
-}
-
-.calendar-tablesmall table {
-	max-width: 50%;
-}
-
-.calendar-tablesmall td, th {
-    width: 14%;
-    vertical-align: top;
-}
-
-.calendar-tablesmall td {
-        height: 14%;
-}
-
-.calendar-tablesmall today {
-        background-color: green;
-}</pre>
-</div>
-<div bag="default" created="20180803133123548" creator="Schulerbot" modified="20190108025302266" modifier="Schulerbot" module-type="widget" revision="0" title="$:/plugins/inmysocks/Calendar/calendar-widget.js" type="application/javascript">
-<pre>/*\
-title: $:/plugins/inmysocks/Calendar/calendar-widget.js
-type: application/javascript
-module-type: widget
-
-A widget that creates a calendar given a year and month.
-
-\*/
-
-(function(){
-
-/*jslint node: true, browser: true */
-/*global $tw: false */
-&quot;use strict&quot;;
-
-var Widget = require(&quot;$:/core/modules/widgets/widget.js&quot;).widget;
-var widgets;
-var container;
-
-var Calendar = function(parseTreeNode,options) {
-	this.initialise(parseTreeNode,options);
-};
-
-/*
-Inherit from the base widget class
-*/
-Calendar.prototype = new Widget();
-
-/*
-Render this widget into the DOM
-*/
-Calendar.prototype.render = function(parent,nextSibling) {
-	this.parentDomNode = parent;
-	this.computeAttributes();
-	this.execute();
-	var domNode = this.document.createElement(&quot;div&quot;);
-	parent.insertBefore(domNode,nextSibling);
-	domNode.className = this.CalendarCSS;
-	this.renderChildren(domNode,null);
-	this.domNodes.push(domNode);
-};
-
-/*
-Compute the internal state of the widget
-*/
-Calendar.prototype.execute = function() {
-	//Get widget attributes.
-	var thisMonth = this.getAttribute(&quot;month&quot;,-1);
-	var thisYear = this.getAttribute(&quot;year&quot;,-1);
-	var thisDayMacro = this.getAttribute(&quot;day_macro&quot;,&quot;CalendarListDailyThings&quot;);
-	var thisCalendarCSS = this.getAttribute(&quot;class&quot;, &quot;calendar-table&quot;);
-
-	var badYear;
-	var isLeap = 0;
-	var numDays;
-	var calendarString;
-	var thisMonthNum;
-
-	//Check to make sure a 4 digit year was passed
-	if(thisYear/1000 &lt; 1 || thisYear === -1 || isNaN(parseFloat(thisYear))) {
-		badYear = 1;
-	} else {
-		badYear = 0;
-	}
-
-	//If it is February, check if the current year is a leap year. Then get the number of days in the current month.
-	if(thisMonth === &quot;2&quot; || thisMonth === &quot;02&quot; || thisMonth === &quot;Feb&quot; || thisMonth === &quot;Feb.&quot; || thisMonth === &quot;February&quot;) {
-		isLeap = ((((thisYear % 4) === 0) &amp;&amp; (thisYear % 100 !== 0)) || (((thisYear % 100) === 0) &amp;&amp; (thisYear % 400) === 0));
-	}
-	switch (thisMonth){
-		case &quot;1&quot;: numDays = 31; thisMonthNum = 1; break;
-		case &quot;01&quot;: numDays = 31; thisMonthNum = 1; break;
-		case &quot;Jan&quot;: numDays = 31; thisMonthNum = 1; break;
-		case &quot;Jan.&quot;: numDays = 31; thisMonthNum = 1; break;
-		case &quot;January&quot;: numDays = 31; thisMonthNum = 1; break;
-		case &quot;2&quot;: numDays = isLeap ? 29:28; thisMonthNum = 2; break;
-		case &quot;02&quot;: numDays = isLeap ? 29:28; thisMonthNum = 2; break;
-		case &quot;Feb&quot;: numDays = isLeap ? 29:28; thisMonthNum = 2; break;
-		case &quot;Feb.&quot;: numDays = isLeap ? 29:28; thisMonthNum = 2; break;
-		case &quot;February&quot;: numDays = isLeap ? 29:28; thisMonthNum = 2; break;
-		case &quot;3&quot;: numDays = 31; thisMonthNum = 3; break;
-		case &quot;03&quot;: numDays = 31; thisMonthNum = 3; break;
-		case &quot;Mar&quot;: numDays = 31; thisMonthNum = 3; break;
-		case &quot;Mar.&quot;: numDays = 31; thisMonthNum = 3; break;
-		case &quot;March&quot;: numDays = 31; thisMonthNum = 3; break;
-		case &quot;4&quot;: numDays = 30; thisMonthNum = 4; break;
-		case &quot;04&quot;: numDays = 30; thisMonthNum = 4; break;
-		case &quot;Apr&quot;: numDays = 30; thisMonthNum = 4; break;
-		case &quot;Apr.&quot;: numDays = 30; thisMonthNum = 4; break;
-		case &quot;April&quot;: numDays = 30; thisMonthNum = 4; break;
-		case &quot;5&quot;: numDays = 31; thisMonthNum = 5; break;
-		case &quot;05&quot;: numDays = 31; thisMonthNum = 5; break;
-		case &quot;May&quot;: numDays = 31; thisMonthNum = 5; break;
-		case &quot;6&quot;: numDays = 30; thisMonthNum = 6; break;
-		case &quot;06&quot;: numDays = 30; thisMonthNum = 6; break;
-		case &quot;Jun&quot;: numDays = 30; thisMonthNum = 6; break;
-		case &quot;Jun.&quot;: numDays = 30; thisMonthNum = 6; break;
-		case &quot;June&quot;: numDays = 30; thisMonthNum = 6; break;
-		case &quot;7&quot;: numDays = 31; thisMonthNum = 7; break;
-		case &quot;07&quot;: numDays = 31; thisMonthNum = 7; break;
-		case &quot;Jul&quot;: numDays = 31; thisMonthNum = 7; break;
-		case &quot;Jul.&quot;: numDays = 31; thisMonthNum = 7; break;
-		case &quot;July&quot;: numDays = 31; thisMonthNum = 7; break;
-		case &quot;8&quot;: numDays = 31; thisMonthNum = 8; break;
-		case &quot;08&quot;: numDays = 31; thisMonthNum = 8; break;
-		case &quot;Aug&quot;: numDays = 31; thisMonthNum = 8; break;
-		case &quot;Aug.&quot;: numDays = 31; thisMonthNum = 8; break;
-		case &quot;August&quot;: numDays = 31; thisMonthNum = 8; break;
-		case &quot;9&quot;: numDays = 30; thisMonthNum = 9; break;
-		case &quot;09&quot;: numDays = 30; thisMonthNum = 9; break;
-		case &quot;Sep&quot;: numDays = 30; thisMonthNum = 9; break;
-		case &quot;Sep.&quot;: numDays = 30; thisMonthNum = 9; break;
-		case &quot;Sept&quot;: numDays = 30; thisMonthNum = 9; break;
-		case &quot;Sept.&quot;: numDays = 30; thisMonthNum = 9; break;
-		case &quot;September&quot;: numDays = 30; thisMonthNum = 9; break;
-		case &quot;10&quot;: numDays = 31; thisMonthNum = 10; break;
-		case &quot;Oct&quot;: numDays = 31; thisMonthNum = 10; break;
-		case &quot;Oct.&quot;: numDays = 31; thisMonthNum = 10; break;
-		case &quot;October&quot;: numDays = 31; thisMonthNum = 10; break;
-		case &quot;11&quot;: numDays = 30; thisMonthNum = 11; break;
-		case &quot;Nov&quot;: numDays = 30; thisMonthNum = 11; break;
-		case &quot;Nov.&quot;: numDays = 30; thisMonthNum = 11; break;
-		case &quot;November&quot;: numDays = 30; thisMonthNum = 11; break;
-		case &quot;12&quot;: numDays = 31; thisMonthNum = 12; break;
-		case &quot;Dec&quot;: numDays = 31; thisMonthNum = 12; break;
-		case &quot;Dec.&quot;: numDays = 31; thisMonthNum = 12; break;
-		case &quot;December&quot;: numDays = 31; thisMonthNum = 12; break;
-		default: numDays = -1;		
-	}
-
-	if(badYear === 1 || numDays === -1) {
-		//If the input doesn't make sense give an error.
-		var parser = this.wiki.parseText(&quot;text/vnd.tiddlywiki&quot;,&quot;Invalid month or year. Years need to be 4 digits, months must be given as a numeric value from 1...12.&quot;,{parseAsInline: false});
-    	var parseTreeNodes = parser ? parser.tree : [];
-		this.CalendarCSS = thisCalendarCSS;
-		this.makeChildWidgets(parseTreeNodes);
-		this.innerHTML = &quot;Invalid month or year. Years need to be 4 digits, see readme for accepted month names.&quot;;
-	} else {
-		//Get the first of the month to base everything else off of.
-		var firstDate = new Date(thisYear,thisMonthNum-1,1);
-		var startingDay = firstDate.getDay();
-                var today = new Date();
-                var todayday = today.getDate();
-		var todaymonth = today.getMonth()+1;
-                var todayyear = today.getFullYear();
-                
-
-		//Make the first week, adding empty days to the front as needed.
-		var currentDate = 1;
-//Changed Table Headings below to Single Letters for Formatting.
-		calendarString = &quot;&lt;table&gt;&lt;tr&gt;&lt;th&gt;S&lt;/th&gt;&lt;th&gt;M&lt;/th&gt;&lt;th&gt;T&lt;/th&gt;&lt;th&gt;W&lt;/th&gt;&lt;th&gt;T&lt;/th&gt;&lt;th&gt;F&lt;/th&gt;&lt;th&gt;S&lt;/th&gt;&lt;/tr&gt;&quot;;
-		while(currentDate &lt;= numDays) {
-			calendarString = calendarString + &quot;&lt;tr&gt;&quot;;
-			for(var i = 0; i &lt; 7; i++) {
-
-
-//Added by Schulerbot to pick the correct day of the week to append to the front of the tiddler when you click on the calendar
-                var currentDay = new Date(thisYear,thisMonthNum-1,currentDate)
-                var weekday = new Array(7);
-                      weekday[0] = &quot;Sun&quot;;
-                      weekday[1] = &quot;Mon&quot;;
-                      weekday[2] = &quot;Tue&quot;;
-                      weekday[3] = &quot;Wed&quot;;
-                      weekday[4] = &quot;Thu&quot;;
-                      weekday[5] = &quot;Fri&quot;;
-                      weekday[6] = &quot;Sat&quot;;
-                var dayOfWeek = weekday[currentDay.getDay()];
-
-//Added by Schulerbot to have the tiddler title be the month name
-
-                var monthName = new Array(12);
-                      monthName[0] = &quot;Jan&quot;;
-                      monthName[1] = &quot;Feb&quot;;
-                      monthName[2] = &quot;Mar&quot;;
-                      monthName[3] = &quot;Apr&quot;;
-                      monthName[4] = &quot;May&quot;;
-                      monthName[5] = &quot;Jun&quot;;
-                      monthName[6] = &quot;Jul&quot;;
-                      monthName[7] = &quot;Aug&quot;;
-                      monthName[8] = &quot;Sep&quot;;
-                      monthName[9] = &quot;Oct&quot;;
-                      monthName[10] = &quot;Nov&quot;;
-                      monthName[11] = &quot;Dec&quot;;
-                var monthOfYear = monthName[currentDay.getMonth()];
-
-function pad(num) {
-    var s = &quot;0&quot; + num;
-    return s.substr(s.length-2);
-}
-             
-var currentDateString = pad(currentDate);
-//end of added code
-
-
-
-				if(currentDate === 1 &amp;&amp; i &lt; startingDay) {
-					calendarString = calendarString + &quot;&lt;td&gt;&lt;/td&gt;&quot;;
-				} else if(currentDate &lt;= numDays) {
-
-//Added
-//&quot; weekday=&quot; + dayOfWeek + &quot;
-//and
-//swapped out thisMonth for monthOfYear
-//in the below expression
-//
-
-if(todayday == currentDate &amp;&amp; todaymonth ==thisMonthNum &amp;&amp; todayyear == thisYear){
-
-
-					calendarString = calendarString + &quot;&lt;td&gt;&lt;today&gt;&lt;$macrocall $name='&quot; + thisDayMacro + &quot;' day=&quot; + currentDateString + &quot; month=&quot; + monthOfYear + &quot; year=&quot; + thisYear + &quot; weekday=&quot; + dayOfWeek + &quot;/&gt;&lt;/today&gt;&lt;/td&gt;&quot;;
-					currentDate++;
-
-                                         }
-else{
-
-
-					calendarString = calendarString + &quot;&lt;td&gt;&lt;$macrocall $name='&quot; + thisDayMacro + &quot;' day=&quot; + currentDateString + &quot; month=&quot; + monthOfYear + &quot; year=&quot; + thisYear + &quot; weekday=&quot; + dayOfWeek + &quot;/&gt;&lt;/td&gt;&quot;;
-					currentDate++;
-
-         }
-				} if(currentDate &gt; numDays &amp;&amp; i &lt; 6) {
-					calendarString = calendarString + &quot;&lt;td&gt;&lt;/td&gt;&quot;;
-				}
-			}
-			calendarString = calendarString + &quot;&lt;/tr&gt;&quot;;
-		}
-		calendarString = calendarString + &quot;&lt;/table&gt;&quot;;
-	}
-
-
-	var stringPassed = calendarString;
-	var parser = this.wiki.parseText(&quot;text/vnd.tiddlywiki&quot;,calendarString,{parseAsInline: false});
-    var parseTreeNodes = parser ? parser.tree : [];
-	this.CalendarCSS = thisCalendarCSS;
-	this.makeChildWidgets(parseTreeNodes);
-};
-
-/*
-Refresh the widget by ensuring our attributes are up to date
-*/
-Calendar.prototype.refresh = function(changedTiddlers) {
-	var changedAttributes = this.computeAttributes();
-	if(changedAttributes[&quot;month&quot;] || changedAttributes[&quot;year&quot;] || changedAttributes[&quot;day_macro&quot;] || changedAttributes[&quot;class&quot;]) {
-		this.refreshSelf();
-		return true;
-	}
-	return this.refreshChildren(changedTiddlers);
-};
-
-exports[&quot;calendar-month&quot;] = Calendar;
-
-})();</pre>
-</div>
-<div created="20181015022934993" creator="Schulerbot" modified="20190108025414666" modifier="Schulerbot" month="1" title="$:/plugins/inmysocks/Calendar/readme" year="1990">
-<pre>This plugin is a modified version of the one found below.
-
-To see this plugin in use you can see it on my page [[here|http://ooktech.com/jed/externalbrain/#Calendar%20Archives]]
-
-This plugin has:
-
-*The calendar-month widget
-*Default css class for the calendar month widget
-*Default macro for calendar days
-*This readme
-
-!The calendar-month widget
-
-Usage: `&lt;$calendar-month year=YYYY month=MM day_macro=someMacro class=someCSSClass/&gt;`
-
-Content of the `&lt;$calendar-month&gt;` widget is ignored.
-
-|!Attribute |!Description |
-|year |The year that the month displayed is from. It must be in 4 digit YYYY format and has no default value. |
-|month |The month to display. See list below for valid month values. month has no default value. |
-|day_macro |(optional) The macro that defines the content of each calendar day. It is passed the parameter `day` with the value of the current day of the month. Defaluts to `CalendarListDailyThings` defined in [[Calendar Default Macros|$:/plugins/inmysocks/Calendar/Calendar Default Macros]] |
-|class |(optional) A css class to use. Defaults to the class `calendar-table` defined in [[Calendar Table Style|$:/plugins/inmysocks/Calendar/Calendar Table Style]] |
-
-!The default ~CalendarListDailyThings macro
-
-This macro lists any tiddlers that have fields called `day`, `month` and `year` in the matching calendar day. If you click on a cell than a tiddler with a title in the form of (day)-(month)-(year) is opened.
-
-!Month values
-
-This is a complete list of the month values the widget understands, if you want some other format added leave a message at [[my site|http://www.inmysocks.tiddlyspot.com]].:
-
-1
-01
-Jan
-Jan.
-January
-
-2
-02
-Feb
-Feb.
-February
-
-3
-03
-Mar
-Mar.
-March
-
-4
-04
-Apr
-Apr.
-April
-
-5
-05
-May
-
-6
-06
-Jun
-Jun.
-June
-
-7
-07
-Jul
-Jul.
-July
-
-8
-08
-Aug
-Aug.
-August
-
-9
-09
-Sep
-Sep.
-Sept
-Sept.
-September
-
-10
-Oct
-Oct.
-October
-
-11
-Nov
-Nov.
-November
-
-12
-Dec
-Dec.
-December
-
-!Example:
-
-```
-Select year: &lt;$select field='year'&gt;&lt;$list filter='1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000'&gt;&lt;option&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/option&gt;&lt;/$list&gt;&lt;/$select&gt;
-
-Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 10 11 12'&gt;&lt;option&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/option&gt;&lt;/$list&gt;&lt;/$select&gt;
-
-&lt;$calendar-month year={{!!year}} month={{!!month}}/&gt;
-```
-
-Select year: &lt;$select field='year'&gt;&lt;$list filter='1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000'&gt;&lt;option&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/option&gt;&lt;/$list&gt;&lt;/$select&gt;
-
-Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 10 11 12'&gt;&lt;option&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/option&gt;&lt;/$list&gt;&lt;/$select&gt;
-
-&lt;$calendar-month year={{!!year}} month={{!!month}}/&gt;
-</pre>
-</div>
-<div author="schulerbot" core-version="&gt;=5.1.18" created="20181217023803382" dependents="$:/plugins/TheDiveO/FontAwesome $:/plugins/inmysocks/Calendar" description="Task functionality for Tiddlwiki" list="readme license history" modified="20181217033230537" plugin-type="plugin" tags="" title="$:/plugins/schulerbot/TW5Tasks" type="application/json" version="0.0.7">
+<div author="schulerbot" core-version="&gt;=5.1.18" created="20181217023803382" creator="schulerbot" dependents="$:/plugins/TheDiveO/FontAwesome $:/plugins/inmysocks/Calendar $:/plugins/ebalster/formula" description="Task functionality for Tiddlywiki" list="readme license history config" modified="20190113185659331" modifier="schulerbot" plugin-type="plugin" tags="" title="$:/plugins/schulerbot/TW5Tasks" type="application/json" version="0.1.1">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/plugins/schulerbot/TW5Tasks/macros/datecompare.js&quot;: {
-            &quot;text&quot;: &quot;/*\\\ntitle: datecompare.js\ntype: application/javascript\nmodule-type: macro\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\n/*\nThis is a macro to compare two formatted dates, based on input and output a text string that works with translation to the user.\n*/\n\nexports.name = \&quot;datecompare\&quot;;\n\nexports.params = [\n\t{ name: \&quot;dateStringOne\&quot; },\n\t{ name: \&quot;dateStringTwo\&quot; }\n       \n];\n\n/*\nRun the macro\n*/\nexports.run = function(dateStringOne, dateStringTwo) {\n\nvar dateStringOneString = String(dateStringOne);\nvar dateStringTwoString = String(dateStringTwo);\n\nvar weekdayStringOne = dateStringOneString.slice(0, 3);\nvar dayStringOne = dateStringOneString.slice(3, 5);\nvar dayNumberOne = parseInt(dayStringOne);\nvar yearStringOne = dateStringOneString.slice(8);\nvar yearNumberOne = parseInt(yearStringOne);\nvar weekdayStringTwo = dateStringTwoString.slice(0, 3);\nvar dayStringTwo = dateStringTwoString.slice(3, 5);\nvar dayNumberTwo = parseInt(dayStringTwo);\nvar yearStringTwo = dateStringTwoString.slice(8);\nvar yearNumberTwo = parseInt(yearStringTwo);\n\nvar monthStringOne = dateStringOneString.slice(5, 8);\nswitch (monthStringOne){\n        case \&quot;Jan\&quot;: monthStringOne = \&quot;1\&quot;; break;\n        case \&quot;Feb\&quot;: monthStringOne = \&quot;2\&quot;; break;\n        case \&quot;Mar\&quot;: monthStringOne = \&quot;3\&quot;; break;\n        case \&quot;Apr\&quot;: monthStringOne = \&quot;4\&quot;; break;\n        case \&quot;May\&quot;: monthStringOne = \&quot;5\&quot;; break;\n        case \&quot;Jun\&quot;: monthStringOne = \&quot;6\&quot;; break;\n        case \&quot;Jul\&quot;: monthStringOne = \&quot;7\&quot;; break;\n        case \&quot;Aug\&quot;: monthStringOne = \&quot;8\&quot;; break;\n        case \&quot;Sep\&quot;: monthStringOne = \&quot;9\&quot;; break;\n        case \&quot;Oct\&quot;: monthStringOne = \&quot;10\&quot;; break;\n        case \&quot;Nov\&quot;: monthStringOne = \&quot;11\&quot;; break;\n        case \&quot;Dec\&quot;: monthStringOne = \&quot;12\&quot;; break;\n}\nvar monthNumberOne = parseInt(monthStringOne);\n\nvar monthStringTwo = dateStringTwoString.slice(5, 8);\nswitch (monthStringTwo){\n        case \&quot;Jan\&quot;: monthStringTwo = \&quot;1\&quot;; break;\n        case \&quot;Feb\&quot;: monthStringTwo = \&quot;2\&quot;; break;\n        case \&quot;Mar\&quot;: monthStringTwo = \&quot;3\&quot;; break;\n        case \&quot;Apr\&quot;: monthStringTwo = \&quot;4\&quot;; break;\n        case \&quot;May\&quot;: monthStringTwo = \&quot;5\&quot;; break;\n        case \&quot;Jun\&quot;: monthStringTwo = \&quot;6\&quot;; break;\n        case \&quot;Jul\&quot;: monthStringTwo = \&quot;7\&quot;; break;\n        case \&quot;Aug\&quot;: monthStringTwo = \&quot;8\&quot;; break;\n        case \&quot;Sep\&quot;: monthStringTwo = \&quot;9\&quot;; break;\n        case \&quot;Oct\&quot;: monthStringTwo = \&quot;10\&quot;; break;\n        case \&quot;Nov\&quot;: monthStringTwo = \&quot;11\&quot;; break;\n        case \&quot;Dec\&quot;: monthStringTwo = \&quot;12\&quot;; break;\n}\nvar monthNumberTwo = parseInt(monthStringTwo);\n\nvar dateOne = new Date(yearNumberOne, monthNumberOne-1, dayNumberOne);\nvar dateTwo = new Date(yearNumberTwo, monthNumberTwo-1, dayNumberTwo);\nvar dateNumberOne = parseInt(dateOne.valueOf());\nvar dateNumberTwo = parseInt(dateTwo.valueOf());\n\nvar dateDifference = dateNumberOne - dateNumberTwo;  //in milliseconds\n\nif (dateNumberOne == dateNumberTwo)\n{\n    var piece = \&quot;today\&quot;;\n}\nelse if (dateNumberOne &lt; dateNumberTwo)\n{\n    var piece = \&quot;past due\&quot;;\n}\nelse if (yearNumberOne &gt; yearNumberTwo)\n{\n    var piece = yearStringOne;\n}\nelse if (monthStringOne != monthStringTwo)\n{\n    var piece = monthStringOne;\n}\nelse if (dateDifference &gt; 604800000)\n{\n    var piece = monthStringOne + \&quot;/\&quot; + dayStringOne;\n}\nelse if (dateDifference &lt;= 604800000)\n{\n   var piece = weekdayStringOne;\n}\nelse\n{\nvar piece = \&quot;INCORRECT ENTRY\&quot;;\n}\n\nreturn piece; \n};\n\n})();&quot;,
+            &quot;text&quot;: &quot;/*\\\ntitle: datecompare.js\ntype: application/javascript\nmodule-type: macro\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\n/*\nThis is a macro to compare two formatted dates, based on input and output a text string that works with translation to the user.\n*/\n\nexports.name = \&quot;datecompare\&quot;;\n\nexports.params = [\n\t{ name: \&quot;dateStringOne\&quot; },\n\t{ name: \&quot;dateStringTwo\&quot; }\n       \n];\n\n/*\nRun the macro\n*/\nexports.run = function(dateStringOne, dateStringTwo) {\n\nvar dateStringOneString = String(dateStringOne);\nvar dateStringTwoString = String(dateStringTwo);\n\nvar weekdayStringOne = dateStringOneString.slice(0, 3);\nvar dayStringOne = dateStringOneString.slice(3, 5);\nvar dayNumberOne = parseInt(dayStringOne);\nvar yearStringOne = dateStringOneString.slice(8);\nvar yearNumberOne = parseInt(yearStringOne);\nvar weekdayStringTwo = dateStringTwoString.slice(0, 3);\nvar dayStringTwo = dateStringTwoString.slice(3, 5);\nvar dayNumberTwo = parseInt(dayStringTwo);\nvar yearStringTwo = dateStringTwoString.slice(8);\nvar yearNumberTwo = parseInt(yearStringTwo);\n\nvar monthStringOneString = dateStringOneString.slice(5, 8);\nvar monthStringOne = monthStringOneString;\nswitch (monthStringOneString){\n        case \&quot;Jan\&quot;: monthStringOneString = \&quot;1\&quot;; break;\n        case \&quot;Feb\&quot;: monthStringOneString = \&quot;2\&quot;; break;\n        case \&quot;Mar\&quot;: monthStringOneString = \&quot;3\&quot;; break;\n        case \&quot;Apr\&quot;: monthStringOneString = \&quot;4\&quot;; break;\n        case \&quot;May\&quot;: monthStringOneString = \&quot;5\&quot;; break;\n        case \&quot;Jun\&quot;: monthStringOneString = \&quot;6\&quot;; break;\n        case \&quot;Jul\&quot;: monthStringOneString = \&quot;7\&quot;; break;\n        case \&quot;Aug\&quot;: monthStringOneString = \&quot;8\&quot;; break;\n        case \&quot;Sep\&quot;: monthStringOneString = \&quot;9\&quot;; break;\n        case \&quot;Oct\&quot;: monthStringOneString = \&quot;10\&quot;; break;\n        case \&quot;Nov\&quot;: monthStringOneString = \&quot;11\&quot;; break;\n        case \&quot;Dec\&quot;: monthStringOneString = \&quot;12\&quot;; break;\n}\nvar monthNumberOne = parseInt(monthStringOneString);\n\nvar monthStringTwo = dateStringTwoString.slice(5, 8);\nswitch (monthStringTwo){\n        case \&quot;Jan\&quot;: monthStringTwo = \&quot;1\&quot;; break;\n        case \&quot;Feb\&quot;: monthStringTwo = \&quot;2\&quot;; break;\n        case \&quot;Mar\&quot;: monthStringTwo = \&quot;3\&quot;; break;\n        case \&quot;Apr\&quot;: monthStringTwo = \&quot;4\&quot;; break;\n        case \&quot;May\&quot;: monthStringTwo = \&quot;5\&quot;; break;\n        case \&quot;Jun\&quot;: monthStringTwo = \&quot;6\&quot;; break;\n        case \&quot;Jul\&quot;: monthStringTwo = \&quot;7\&quot;; break;\n        case \&quot;Aug\&quot;: monthStringTwo = \&quot;8\&quot;; break;\n        case \&quot;Sep\&quot;: monthStringTwo = \&quot;9\&quot;; break;\n        case \&quot;Oct\&quot;: monthStringTwo = \&quot;10\&quot;; break;\n        case \&quot;Nov\&quot;: monthStringTwo = \&quot;11\&quot;; break;\n        case \&quot;Dec\&quot;: monthStringTwo = \&quot;12\&quot;; break;\n}\nvar monthNumberTwo = parseInt(monthStringTwo);\n\nvar dateOne = new Date(yearNumberOne, monthNumberOne-1, dayNumberOne);\nvar dateTwo = new Date(yearNumberTwo, monthNumberTwo-1, dayNumberTwo);\nvar dateNumberOne = parseInt(dateOne.valueOf());\nvar dateNumberTwo = parseInt(dateTwo.valueOf());\n\nvar dateDifference = dateNumberOne - dateNumberTwo;  //in milliseconds\n\nif (dateNumberOne == dateNumberTwo)\n{\n    var piece = \&quot;today\&quot;;\n}\nelse if (dateNumberOne &lt; dateNumberTwo)\n{\n    var piece = \&quot;past due\&quot;;\n}\nelse if (yearNumberOne &gt; yearNumberTwo)\n{\n    var piece = yearStringOne;\n}\nelse if (monthStringOneString != monthStringTwo)\n{\n    var piece = monthStringOne;\n}\nelse if (dateDifference &gt; 604800000)\n{\n    var piece = monthStringOneString + \&quot;/\&quot; + dayStringOne;\n}\nelse if (dateDifference &lt;= 604800000)\n{\n   var piece = weekdayStringOne;\n}\nelse\n{\nvar piece = \&quot;INCORRECT ENTRY\&quot;;\n}\n\nreturn piece; \n};\n\n})();&quot;,
             &quot;type&quot;: &quot;application/javascript&quot;,
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/macros/datecompare.js&quot;,
             &quot;tags&quot;: &quot;$:/tags/Macro&quot;,
             &quot;module-type&quot;: &quot;macro&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181218134253194&quot;,
+            &quot;modified&quot;: &quot;20190113184348673&quot;,
             &quot;creator&quot;: &quot;Schulerbot&quot;,
             &quot;created&quot;: &quot;20181217024316710&quot;
         },
@@ -10034,11 +9558,11 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
             &quot;created&quot;: &quot;20181217024409180&quot;
         },
         &quot;$:/plugins/schulerbot/TW5Tasks/macros/tasks&quot;: {
-            &quot;text&quot;: &quot;\\define dueDay()\n    &lt;$macrocall $name=\&quot;datetranslate\&quot; date={{!!duedate}} reqParam=\&quot;day\&quot; /&gt;\n\\end\n\n\\define dueMonth()\n    &lt;$macrocall $name=\&quot;datetranslate\&quot; date={{!!duedate}} reqParam=\&quot;month\&quot; /&gt;\n\\end\n\n\\define dueYear() \n    &lt;$macrocall $name=\&quot;datetranslate\&quot; date={{!!duedate}} reqParam=\&quot;year\&quot; /&gt;\n\\end\n\n\\define nextDueDate() \n    &lt;$macrocall $name=\&quot;recurring\&quot; year=&lt;&lt;dueYear&gt;&gt; month=&lt;&lt;dueMonth&gt;&gt; day=&lt;&lt;dueDay&gt;&gt; frequency={{!!recurringfrequency}} /&gt;\n\\end\n\n\\define tagTask(param1, param2, param3)\n    &lt;$action-createtiddler $basetitle=&lt;&lt;taskTitle&gt;&gt; tags=\&quot;[[$param1$]] [[$param2$]]\&quot; text={{!!text}} complete=\&quot;yes\&quot; donetime=$param3$ duedate={{!!duedate}} caption={{!!title}} /&gt;\n\\end\n\n\\define openEditor(param1, param2)\n    &lt;$action-createtiddler $basetitle=&lt;&lt;templateTitle&gt;&gt; tags=\&quot; [[$param1$]] [[$param2$]]\&quot; text={{!!text}} duedate={{!!duedate}} recurringfrequency={{!!recurringfrequency}} caption={{!!title}} /&gt;\n\\end\n\n\\define undoTask()\n    &lt;$action-createtiddler $basetitle={{!!caption}} tags=\&quot;Task\&quot; text={{!!text}} complete=\&quot;no\&quot; duedate={{!!duedate}} /&gt;\n\\end\n\n&quot;,
+            &quot;text&quot;: &quot;\\define dueDay()\n    &lt;$macrocall $name=\&quot;datetranslate\&quot; date={{!!duedate}} reqParam=\&quot;day\&quot; /&gt;\n\\end\n\n\\define dueMonth()\n    &lt;$macrocall $name=\&quot;datetranslate\&quot; date={{!!duedate}} reqParam=\&quot;month\&quot; /&gt;\n\\end\n\n\\define dueYear() \n    &lt;$macrocall $name=\&quot;datetranslate\&quot; date={{!!duedate}} reqParam=\&quot;year\&quot; /&gt;\n\\end\n\n\\define nextDueDate() \n    &lt;$macrocall $name=\&quot;recurring\&quot; year=&lt;&lt;dueYear&gt;&gt; month=&lt;&lt;dueMonth&gt;&gt; day=&lt;&lt;dueDay&gt;&gt; frequency={{!!recurringfrequency}} /&gt;\n\\end\n\n\\define tagTask(param1, param2, param3)\n    &lt;$action-createtiddler $basetitle=&lt;&lt;taskTitle&gt;&gt; tags=\&quot;[[$param1$]] [[$param2$]]\&quot; text={{!!text}} complete=\&quot;yes\&quot; donetime=$param3$ duedate={{!!duedate}} caption={{!!title}} /&gt;\n\\end\n\n\\define openEditor(param1, param2)\n    &lt;$action-createtiddler $basetitle=&lt;&lt;templateTitle&gt;&gt; tags=\&quot; [[$param1$]] [[$param2$]]\&quot; text={{!!text}} duedate={{!!duedate}} recurringfrequency={{!!recurringfrequency}} caption={{!!title}} /&gt;\n\\end\n\n\\define undoTask()\n    &lt;$action-createtiddler $basetitle={{!!caption}} tags=\&quot;Task\&quot; text={{!!text}} complete=\&quot;no\&quot; duedate={{!!duedate}} /&gt;\n\\end\n\n\\define createTask()\n    &lt;$action-sendmessage $message=\&quot;tm-new-tiddler\&quot; title=&lt;&lt;taskTitle&gt;&gt; tags=&lt;&lt;taskTags&gt;&gt; text=&lt;&lt;taskText&gt;&gt; complete=\&quot;no\&quot; recurringfrequency=\&quot;\&quot; /&gt;\n\\end\n&quot;,
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/macros/tasks&quot;,
             &quot;tags&quot;: &quot;$:/tags/Macro&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181224183819771&quot;,
+            &quot;modified&quot;: &quot;20181230025733004&quot;,
             &quot;creator&quot;: &quot;schulerbot&quot;,
             &quot;created&quot;: &quot;20181217024426233&quot;
         },
@@ -10054,10 +9578,10 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
             &quot;created&quot;: &quot;20181217024442876&quot;
         },
         &quot;$:/plugins/schulerbot/TW5Tasks/module/createtask&quot;: {
-            &quot;text&quot;: &quot;\\define taskButton()\n    &lt;$button tooltip=\&quot;Add Task to List\&quot; class=\&quot;tc-btn-invisible\&quot;&gt;\n        &lt;$wikify name=\&quot;taskTitle\&quot; text=\&quot;\&quot;\&quot;{{$:/plugins/schulerbot/TW5Tasks/module/createtask/title}}\&quot;\&quot;\&quot;&gt;\n            &lt;$wikify name=\&quot;taskTags\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;now\&quot; format=&lt;&lt;taskTagsTemplate&gt;&gt;/&gt;\&quot;\&quot;\&quot;&gt;\n                &lt;$action-sendmessage $message=\&quot;tm-new-tiddler\&quot; title=&lt;&lt;taskTitle&gt;&gt; tags=&lt;&lt;taskTags&gt;&gt; text=&lt;&lt;taskText&gt;&gt; complete=\&quot;no\&quot; recurringfrequency=\&quot;\&quot; /&gt;\n                &lt;$action-deletefield $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/module/createtask/title\&quot; $field=\&quot;text\&quot;/&gt;\n&lt;i class=\&quot;fas fa-plus fa-3x\&quot; style=\&quot;vertical-align: middle;\&quot;&gt;&lt;/i&gt;\n                &lt;/$wikify&gt;\n            &lt;/$wikify&gt;\n    &lt;/$button&gt;\n\\end\n\n&lt;$set name=\&quot;taskTagsTemplate\&quot; value={{$:/plugins/schulerbot/TW5Tasks/module/createtask/tags}}&gt;\n    &lt;$set name=\&quot;taskText\&quot; value={{$:/plugins/schulerbot/TW5Tasks/module/createtask/text}}&gt;\n        &lt;&lt;taskButton&gt;&gt;\n    &lt;/$set&gt;\n&lt;/$set&gt;\n\n&lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/module/createtask/title\&quot; tag=\&quot;input\&quot; /&gt;&quot;,
+            &quot;text&quot;: &quot;\\define eraseEntry()\n    &lt;$action-deletefield $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/module/createtask/title\&quot; $field=\&quot;text\&quot;/&gt;\n\\end\n\n\\define taskButton()\n    &lt;$button tooltip=\&quot;Add Task to List\&quot; class=\&quot;tc-btn-invisible\&quot; actions=&lt;&lt;eraseEntry&gt;&gt;&gt;\n        &lt;$wikify name=\&quot;taskTitle\&quot; text=\&quot;\&quot;\&quot;{{$:/plugins/schulerbot/TW5Tasks/module/createtask/title}}\&quot;\&quot;\&quot;&gt;\n            &lt;$wikify name=\&quot;taskTags\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;now\&quot; format=&lt;&lt;taskTagsTemplate&gt;&gt;/&gt;\&quot;\&quot;\&quot;&gt;\n                &lt;&lt;createTask&gt;&gt;\n                &lt;i class=\&quot;fas fa-plus fa-3x\&quot;&gt;&lt;/i&gt;\n                &lt;/$wikify&gt;\n            &lt;/$wikify&gt;\n    &lt;/$button&gt;\n\\end\n\n&lt;$set name=\&quot;taskTagsTemplate\&quot; value={{$:/plugins/schulerbot/TW5Tasks/module/createtask/tags}}&gt;\n    &lt;$set name=\&quot;taskText\&quot; value={{$:/plugins/schulerbot/TW5Tasks/module/createtask/text}}&gt;\n        &lt;&lt;taskButton&gt;&gt;\n    &lt;/$set&gt;\n&lt;/$set&gt;\n\n&lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/module/createtask/title\&quot; tag=\&quot;input\&quot; /&gt;&quot;,
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/module/createtask&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181224183501536&quot;,
+            &quot;modified&quot;: &quot;20181230030350263&quot;,
             &quot;creator&quot;: &quot;schulerbot&quot;,
             &quot;created&quot;: &quot;20181217024458354&quot;
         },
@@ -10081,24 +9605,24 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
             &quot;text&quot;: &quot;&quot;,
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/module/createtask/title&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181227030941217&quot;,
+            &quot;modified&quot;: &quot;20181231030742439&quot;,
             &quot;creator&quot;: &quot;schulerbot&quot;,
             &quot;created&quot;: &quot;20181217024545615&quot;
         },
         &quot;$:/plugins/schulerbot/TW5Tasks/stylesheet&quot;: {
-            &quot;text&quot;: &quot;.tc-btn-task-left {\nfloat:left;\nbackground-color: white; \nvertical-align: middle; \nborder-style:solid; \nborder-color:black; \nborder-width:2px; \nborder-radius:35px;\nmargin:5px;\npadding:5px;\nheight: 50px;\nmin-width: 50px;\n}\n\n.tc-btn-task-right {\nfloat: right;\nbackground-color: white; \nvertical-align: middle; \nborder-style:solid; \nborder-color:black; \nborder-width:2px; \nborder-radius:35px;\nmargin:5px;\npadding:5px;\nheight: 50px;\nmin-width: 50px;\n}\n\n.tc-btn-task {\njustify: left;\nbackground-color: white;\nvertical-align: middle; \nfont-family: verdana;\nfont-size: 16pt;\npadding: 0; \nmargin: 0; \nborder: none; \ncursor: pointer;\ntext-overflow: ellipsis;\ntext-align:left;\noverflow: hidden;\nheight: 50px;\n}\n\n[data-tags*=\&quot;tasksubmenu\&quot;] .tc-btn-right{\ndisplay: inline-block;\nvertical-align: middle;\n}\n\n[data-tags*=\&quot;taskboard\&quot;] .tc-menu-list-item{\nborder: 2px solid pink;\nheight: 64px;\n}\n\n&quot;,
+            &quot;text&quot;: &quot;\\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline html\n\n.tc-btn-task-left {\nfloat:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btl_float}};\nbackground-color: {{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btl_backgroundcolor}}; \nborder-style:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btl_borderstyle}}; \nborder-color:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btl_bordercolor}};\nborder-width: {{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btl_borderwidth}}px; \nborder-radius:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btl_borderradius}}px;\nmargin:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btl_margin}}px;\npadding:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btl_padding}}px;\nheight: {{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btl_height}}px;\nmin-width: {{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btl_minwidth}}px;\n}\n\n.tc-btn-task-right {\nfloat:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btr_float}};\nbackground-color: {{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btr_backgroundcolor}}; \nborder-style:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btr_borderstyle}}; \nborder-color:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btr_bordercolor}};\nborder-width: {{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btr_borderwidth}}px; \nborder-radius:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btr_borderradius}}px;\nmargin:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btr_margin}}px;\npadding:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btr_padding}}px;\nheight: {{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btr_height}}px;\nmin-width: {{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##btr_minwidth}}px;\n}\n\n.tc-btn-task {\njustify: left;\nbackground-color: white;\nvertical-align: middle; \nfont-family: verdana;\nfont-size: 16pt;\npadding: 0; \nmargin: 0; \nborder: none; \ncursor: pointer;\ntext-overflow: ellipsis;\ntext-align:left;\noverflow: hidden;\nheight: 50px;\n}\n\n[data-tags*=\&quot;tasksubmenu\&quot;] .tc-btn-right{\ndisplay: inline-block;\nvertical-align: middle;\n}\n\n[data-tags*=\&quot;taskboard\&quot;] .tc-tiddler-body .tc-menu-list-item{\nfloat:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##list_float}};\nbackground-color: {{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##list_backgroundcolor}}; \nborder-style:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##list_borderstyle}}; \nborder-color:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##list_bordercolor}};\nborder-width: {{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##list_borderwidth}}px; \nborder-radius:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##list_borderradius}}px;\nmargin:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##list_margin}}px;\npadding:{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##list_padding}}px;\nheight: {{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##list_height}}px;\nmin-width: {{$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata##list_minwidth}}px;\n}\n\n&quot;,
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/stylesheet&quot;,
             &quot;tags&quot;: &quot;$:/tags/Stylesheet&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181219022451002&quot;,
+            &quot;modified&quot;: &quot;20190109030728555&quot;,
             &quot;creator&quot;: &quot;Schulerbot&quot;,
             &quot;created&quot;: &quot;20181217024640264&quot;
         },
         &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate&quot;: {
-            &quot;text&quot;: &quot;&lt;$wikify name=\&quot;dayTag\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;now\&quot; format=\&quot;ddd0DDmmmYYYY\&quot;/&gt;\&quot;\&quot;\&quot;&gt;\n&lt;$wikify name=\&quot;dueDay\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;datetranslate\&quot; date={{!!duedate}} reqParam=\&quot;day\&quot; /&gt;\&quot;\&quot;\&quot;&gt;\n&lt;$wikify name=\&quot;dueMonth\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;datetranslate\&quot; date={{!!duedate}} reqParam=\&quot;month\&quot; /&gt;\&quot;\&quot;\&quot;&gt;\n&lt;$wikify name=\&quot;dueYear\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;datetranslate\&quot; date={{!!duedate}} reqParam=\&quot;year\&quot; /&gt;\&quot;\&quot;\&quot;&gt;\n&lt;$wikify name=\&quot;nextDueDate\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;recurring\&quot; year=&lt;&lt;dueYear&gt;&gt; month=&lt;&lt;dueMonth&gt;&gt; day=&lt;&lt;dueDay&gt;&gt; frequency={{!!recurringfrequency}} /&gt;\&quot;\&quot;\&quot;&gt;\n&lt;$wikify name=\&quot;taskTitle\&quot; text=\&quot;\&quot;\&quot;{{$:/plugins/schulerbot/TW5Tasks/module/completetasktitle}}\&quot;\&quot;\&quot;&gt;\n&lt;$wikify name=\&quot;templateTitle\&quot; text=\&quot;\&quot;\&quot;{{$:/plugins/schulerbot/TW5Tasks/module/editor/edittasktitle}}\&quot;\&quot;\&quot;&gt;\n&lt;$wikify name=\&quot;dayTag\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;now\&quot; format=\&quot;ddd0DDmmmYYYY\&quot;/&gt;\&quot;\&quot;\&quot;&gt;\n&lt;$set name=\&quot;taskObject\&quot; value=&lt;&lt;currentTiddler&gt;&gt;&gt;\n&lt;$list filter=\&quot;[tag[taskbutton]!tag[tasksubmenu]]\&quot;&gt;&lt;$transclude&gt;\n&lt;/$list&gt;\n&lt;/$set&gt;\n&lt;$/wikify&gt;\n&quot;,
+            &quot;text&quot;: &quot;&lt;$wikify name=\&quot;dayTag\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;now\&quot; format=\&quot;ddd0DDmmmYYYY\&quot;/&gt;\&quot;\&quot;\&quot;&gt;\n    &lt;$wikify name=\&quot;dueDay\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;datetranslate\&quot; date={{!!duedate}} reqParam=\&quot;day\&quot; /&gt;\&quot;\&quot;\&quot;&gt;\n        &lt;$wikify name=\&quot;dueMonth\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;datetranslate\&quot; date={{!!duedate}} reqParam=\&quot;month\&quot; /&gt;\&quot;\&quot;\&quot;&gt;\n            &lt;$wikify name=\&quot;dueYear\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;datetranslate\&quot; date={{!!duedate}} reqParam=\&quot;year\&quot; /&gt;\&quot;\&quot;\&quot;&gt;\n                &lt;$wikify name=\&quot;nextDueDate\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;recurring\&quot; year=&lt;&lt;dueYear&gt;&gt; month=&lt;&lt;dueMonth&gt;&gt; day=&lt;&lt;dueDay&gt;&gt; frequency={{!!recurringfrequency}} /&gt;\&quot;\&quot;\&quot;&gt;\n                    &lt;$wikify name=\&quot;taskTitle\&quot; text=\&quot;\&quot;\&quot;{{$:/plugins/schulerbot/TW5Tasks/module/completetasktitle}}\&quot;\&quot;\&quot;&gt;\n                        &lt;$wikify name=\&quot;templateTitle\&quot; text=\&quot;\&quot;\&quot;{{$:/plugins/schulerbot/TW5Tasks/module/editor/edittasktitle}}\&quot;\&quot;\&quot;&gt;\n                            &lt;$wikify name=\&quot;dayTag\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;now\&quot; format=\&quot;ddd0DDmmmYYYY\&quot;/&gt;\&quot;\&quot;\&quot;&gt;\n                                &lt;$set name=\&quot;taskObject\&quot; value=&lt;&lt;currentTiddler&gt;&gt;&gt;\n                                    &lt;$list filter=\&quot;[tag[taskbutton]!tag[tasksubmenu]]\&quot;&gt;&lt;$transclude&gt;\n                                    &lt;/$list&gt;\n                                &lt;/$set&gt;\n                            &lt;$/wikify&gt;\n                        &lt;$/wikify&gt;\n                    &lt;$/wikify&gt;\n                &lt;$/wikify&gt;\n        &lt;$/wikify&gt;\n    &lt;$/wikify&gt;\n&lt;$/wikify&gt;&quot;,
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181219032448445&quot;,
+            &quot;modified&quot;: &quot;20181230030801433&quot;,
             &quot;creator&quot;: &quot;schulerbot&quot;,
             &quot;created&quot;: &quot;20181217024659942&quot;
         },
@@ -10107,7 +9631,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button1&quot;,
             &quot;tags&quot;: &quot;taskbutton&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181227154024130&quot;,
+            &quot;modified&quot;: &quot;20181231030904289&quot;,
             &quot;creator&quot;: &quot;schulerbot&quot;,
             &quot;created&quot;: &quot;20181217024717235&quot;
         },
@@ -10132,7 +9656,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button2&quot;,
             &quot;tags&quot;: &quot;taskbutton&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181227154037848&quot;,
+            &quot;modified&quot;: &quot;20181229032051550&quot;,
             &quot;creator&quot;: &quot;schulerbot&quot;,
             &quot;created&quot;: &quot;20181217024822501&quot;
         },
@@ -10140,13 +9664,13 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
             &quot;text&quot;: &quot;\\define forwardMonth()\n    &lt;$reveal type=\&quot;nomatch\&quot; state=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!month\&quot; text=\&quot;December\&quot;&gt;\n        &lt;$button class=\&quot;tc-btn-invisible\&quot;&gt;\n            &lt;$set name=\&quot;selectedMonth\&quot; filter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!monthcarouselforward]first[]]\&quot;&gt;\n                &lt;$action-setfield $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar\&quot; $field=\&quot;month\&quot; $value=&lt;&lt;selectedMonth&gt;&gt;/&gt;\n                &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar\&quot; $field=\&quot;monthcarouselforward\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5!!monthsofyear]] +[allafter&lt;selectedMonth&gt;]\&quot;/&gt;\n                &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar\&quot; $field=\&quot;monthcarouselreverse\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5!!monthsofyear]] +[allbefore&lt;selectedMonth&gt;]\&quot;/&gt;\n&lt;i class=\&quot;far fa-caret-square-right fa-2x\&quot;&gt;&lt;/i&gt;\n            &lt;/$set&gt;\n        &lt;/$button&gt;\n    &lt;/$reveal&gt;\n    &lt;$reveal type=\&quot;match\&quot; state=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!month\&quot; text=\&quot;December\&quot;&gt;\n        &lt;$button class=\&quot;tc-btn-invisible\&quot;&gt;\n            &lt;$set name=\&quot;selectedMonth\&quot; filter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!monthcarouselreverse]first[]]\&quot;&gt;\n                &lt;$action-setfield $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar\&quot; $field=\&quot;month\&quot; $value=&lt;&lt;selectedMonth&gt;&gt;/&gt;\n                &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar\&quot; $field=\&quot;monthcarouselforward\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5!!monthsofyear]] +[allafter&lt;selectedMonth&gt;]\&quot;/&gt;\n                &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar\&quot; $field=\&quot;monthcarouselreverse\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5!!monthsofyear]] +[allbefore&lt;selectedMonth&gt;]\&quot;/&gt;\n                &lt;$action-setfield $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar\&quot; $field=\&quot;year\&quot; $value=&lt;&lt;yearForward&gt;&gt;/&gt;\n&lt;i class=\&quot;far fa-caret-square-right fa-2x\&quot;&gt;&lt;/i&gt;\n            &lt;/$set&gt;\n        &lt;/$button&gt;\n    &lt;/$reveal&gt;\n\\end\n\n\\define reverseMonth()\n    &lt;$reveal type=\&quot;nomatch\&quot; state=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!month\&quot; text=\&quot;January\&quot;&gt;\n        &lt;$button class=\&quot;tc-btn-invisible\&quot;&gt;\n            &lt;$set name=\&quot;selectedMonth\&quot; filter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!monthcarouselreverse]last[]]\&quot;&gt;\n                &lt;$action-setfield $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar\&quot; $field=\&quot;month\&quot; $value=&lt;&lt;selectedMonth&gt;&gt;/&gt;\n                &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar\&quot; $field=\&quot;monthcarouselforward\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5!!monthsofyear]] +[allafter&lt;selectedMonth&gt;]\&quot;/&gt;\n                &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar\&quot; $field=\&quot;monthcarouselreverse\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5!!monthsofyear]] +[allbefore&lt;selectedMonth&gt;]\&quot;/&gt;\n&lt;i class=\&quot;far fa-caret-square-left fa-2x\&quot;&gt;&lt;/i&gt;\n            &lt;/$set&gt;\n        &lt;/$button&gt;\n    &lt;/$reveal&gt;\n    &lt;$reveal type=\&quot;match\&quot; state=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!month\&quot; text=\&quot;January\&quot;&gt;\n        &lt;$button class=\&quot;tc-btn-invisible\&quot;&gt;\n            &lt;$set name=\&quot;selectedMonth\&quot; filter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!monthcarouselforward]last[]]\&quot;&gt;\n                &lt;$action-setfield $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar\&quot; $field=\&quot;month\&quot; $value=&lt;&lt;selectedMonth&gt;&gt;/&gt;\n                &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar\&quot; $field=\&quot;monthcarouselforward\&quot; $subfilter=\&quot;[list[tasktemplate/button5!!monthsofyear]] +[allafter&lt;selectedMonth&gt;]\&quot;/&gt;\n                &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar\&quot; $field=\&quot;monthcarouselreverse\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5!!monthsofyear]] +[allbefore&lt;selectedMonth&gt;]\&quot;/&gt;\n                &lt;$action-setfield $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar\&quot; $field=\&quot;year\&quot; $value=&lt;&lt;yearReverse&gt;&gt;/&gt;\n&lt;i class=\&quot;far fa-caret-square-left fa-2x\&quot;&gt;&lt;/i&gt;\n            &lt;/$set&gt;\n        &lt;/$button&gt;\n    &lt;/$reveal&gt;\n\\end\n\n\\define title() \n{{!!month}}, {{!!year}}\n\\end\n&lt;div style=\&quot;text-align:center; background-color:white; margin: 2px; padding:2px; border-style:solid; border-width:1px;\&quot;&gt;\n&lt;$wikify name=\&quot;yearForward\&quot; text={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!yearforward}}&gt;\n    &lt;$wikify name=\&quot;yearReverse\&quot; text={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!yearreverse}}&gt;\n        &lt;&lt;reverseMonth&gt;&gt;      &lt;&lt;title&gt;&gt; \n     &lt;&lt;forwardMonth&gt;&gt;\n    &lt;/$wikify&gt;\n&lt;/$wikify&gt;\n\n    &lt;$calendar-month year={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!year}} month={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!month}} day_macro=DueDateCreate class=calendar-tablesmall/&gt;\n&lt;/div&gt;\n\n&quot;,
             &quot;yearreverse&quot;: &quot;(={{!!year}}-1=)&quot;,
             &quot;yearforward&quot;: &quot;(={{!!year}}+1=)&quot;,
-            &quot;year&quot;: &quot;2018&quot;,
+            &quot;year&quot;: &quot;2019&quot;,
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar&quot;,
-            &quot;monthcarouselreverse&quot;: &quot;January February March April May June July August September October November&quot;,
-            &quot;monthcarouselforward&quot;: &quot;&quot;,
-            &quot;month&quot;: &quot;December&quot;,
+            &quot;monthcarouselreverse&quot;: &quot;&quot;,
+            &quot;monthcarouselforward&quot;: &quot;February March April May June July August September October November December&quot;,
+            &quot;month&quot;: &quot;January&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181227155441331&quot;,
+            &quot;modified&quot;: &quot;20190113184252136&quot;,
             &quot;creator&quot;: &quot;Schulerbot&quot;,
             &quot;created&quot;: &quot;20181217024838509&quot;
         },
@@ -10155,7 +9679,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button8&quot;,
             &quot;tags&quot;: &quot;taskbutton&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181227154122017&quot;,
+            &quot;modified&quot;: &quot;20181229032218796&quot;,
             &quot;creator&quot;: &quot;schulerbot&quot;,
             &quot;created&quot;: &quot;20181217024859955&quot;
         },
@@ -10164,7 +9688,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button3&quot;,
             &quot;tags&quot;: &quot;taskbutton&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181227154044578&quot;,
+            &quot;modified&quot;: &quot;20181229032058770&quot;,
             &quot;list-after&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button8&quot;,
             &quot;creator&quot;: &quot;schulerbot&quot;,
             &quot;created&quot;: &quot;20181217025006027&quot;
@@ -10174,7 +9698,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button10&quot;,
             &quot;tags&quot;: &quot;tasksubmenu taskbutton&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181227154138961&quot;,
+            &quot;modified&quot;: &quot;20181229032149468&quot;,
             &quot;list-after&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button8&quot;,
             &quot;creator&quot;: &quot;Schulerbot&quot;,
             &quot;created&quot;: &quot;20181217025039527&quot;
@@ -10185,7 +9709,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
             &quot;tags&quot;: &quot;tasksubmenu taskbutton&quot;,
             &quot;monthsofyear&quot;: &quot;January February March April May June July August September October November December&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181227155408978&quot;,
+            &quot;modified&quot;: &quot;20190113181846538&quot;,
             &quot;list-after&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button10&quot;,
             &quot;creator&quot;: &quot;schulerbot&quot;,
             &quot;created&quot;: &quot;20181217025055239&quot;
@@ -10195,7 +9719,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button9&quot;,
             &quot;tags&quot;: &quot;tasksubmenu taskbutton&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181227154131682&quot;,
+            &quot;modified&quot;: &quot;20181229032226588&quot;,
             &quot;list-after&quot;: &quot;tasktemplate/button5&quot;,
             &quot;creator&quot;: &quot;Schulerbot&quot;,
             &quot;created&quot;: &quot;20181217025115482&quot;
@@ -10205,7 +9729,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button4&quot;,
             &quot;tags&quot;: &quot;tasksubmenu taskbutton&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181227154051561&quot;,
+            &quot;modified&quot;: &quot;20181229032107138&quot;,
             &quot;list-after&quot;: &quot;tasktemplate/button5&quot;,
             &quot;creator&quot;: &quot;schulerbot&quot;,
             &quot;created&quot;: &quot;20181217025131672&quot;
@@ -10215,18 +9739,18 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button7&quot;,
             &quot;tags&quot;: &quot;tasksubmenu taskbutton&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181227154115946&quot;,
+            &quot;modified&quot;: &quot;20181229032210830&quot;,
             &quot;list-after&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button4&quot;,
             &quot;creator&quot;: &quot;schulerbot&quot;,
             &quot;created&quot;: &quot;20181217025147249&quot;
         },
         &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6&quot;: {
-            &quot;text&quot;: &quot;\\define taskButton()\n&lt;$button popup=&lt;&lt;qualify \&quot;$:/state/TW5Tasks/calendar\&quot;&gt;&gt; tooltip=\&quot;set the due date\&quot; class=\&quot;tc-btn-task-right tc-btn-invisible\&quot; style=\&quot;color:black; font-size: x-small;\&quot;&gt;\n        &lt;$action-setfield $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; month=&lt;&lt;monthStart&gt;&gt; year=&lt;&lt;yearStart&gt;&gt;/&gt;\n        &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;monthcarouselforward\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allafter{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!month}]\&quot;/&gt;\n        &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;monthcarouselreverse\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allbefore{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!month}]\&quot;/&gt;\n&lt;$text text=&lt;&lt;duecompare&gt;&gt;/&gt;\n    &lt;/$button&gt;&lt;$reveal state=&lt;&lt;qualify \&quot;$:/state/TW5Tasks/calendar\&quot;&gt;&gt; type=\&quot;popup\&quot; position=\&quot;left\&quot; animate=\&quot;yes\&quot;&gt;\n        &lt;div class=\&quot;tc-task-popup\&quot;&gt;\n            {{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar}}\n        &lt;/div&gt;\n    &lt;/$reveal&gt;\n\\end\n\n&lt;$tiddler tiddler=&lt;&lt;taskObject&gt;&gt;&gt;\n&lt;$reveal type=\&quot;nomatch\&quot; state=\&quot;!!complete\&quot; text=\&quot;yes\&quot;&gt;\n&lt;$reveal type=\&quot;nomatch\&quot; state=\&quot;!!duedate\&quot; text=\&quot;\&quot;&gt;\n&lt;$wikify name=\&quot;monthStart\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;now\&quot; format=\&quot;MMM\&quot;/&gt;\&quot;\&quot;\&quot;&gt;\n&lt;$wikify name=\&quot;yearStart\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;now\&quot; format=\&quot;YYYY\&quot;/&gt;\&quot;\&quot;\&quot;&gt;\n&lt;$wikify name=\&quot;duecompare\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;datecompare\&quot; dateStringOne={{!!duedate}} dateStringTwo=&lt;&lt;dayTag&gt;&gt;/&gt;\&quot;\&quot;\&quot;&gt;\n            &lt;&lt;taskButton&gt;&gt;\n&lt;/$wikify&gt;&lt;/$wikify&gt;&lt;/$wikify&gt;\n&lt;/$reveal&gt;&lt;/$reveal&gt;\n&lt;/$tiddler&gt;\n&quot;,
+            &quot;text&quot;: &quot;\\define taskButton()\n&lt;$button popup=&lt;&lt;qualify \&quot;$:/state/TW5Tasks/calendar2\&quot;&gt;&gt; tooltip=\&quot;set the due date\&quot; class=\&quot;tc-btn-task-right tc-btn-invisible\&quot; style=\&quot;color:black; font-size: x-small;\&quot;&gt;\n        &lt;$action-setfield $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; month=&lt;&lt;monthStart&gt;&gt; year=&lt;&lt;yearStart&gt;&gt;/&gt;\n        &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;monthcarouselforward\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allafter{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!month}]\&quot;/&gt;\n        &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;monthcarouselreverse\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allbefore{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!month}]\&quot;/&gt;\n&lt;$text text=&lt;&lt;duecompare&gt;&gt;/&gt;\n    &lt;/$button&gt;&lt;$reveal state=&lt;&lt;qualify \&quot;$:/state/TW5Tasks/calendar2\&quot;&gt;&gt; type=\&quot;popup\&quot; position=\&quot;left\&quot; animate=\&quot;yes\&quot;&gt;\n        &lt;div class=\&quot;tc-task-popup tc-popup-keep\&quot;&gt;\n            {{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar}}\n        &lt;/div&gt;\n    &lt;/$reveal&gt;\n\\end\n\n&lt;$tiddler tiddler=&lt;&lt;taskObject&gt;&gt;&gt;\n&lt;$reveal type=\&quot;nomatch\&quot; state=\&quot;!!complete\&quot; text=\&quot;yes\&quot;&gt;\n&lt;$reveal type=\&quot;nomatch\&quot; state=\&quot;!!duedate\&quot; text=\&quot;\&quot;&gt;\n&lt;$wikify name=\&quot;monthStart\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;now\&quot; format=\&quot;MMM\&quot;/&gt;\&quot;\&quot;\&quot;&gt;\n&lt;$wikify name=\&quot;yearStart\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;now\&quot; format=\&quot;YYYY\&quot;/&gt;\&quot;\&quot;\&quot;&gt;\n&lt;$wikify name=\&quot;duecompare\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;datecompare\&quot; dateStringOne={{!!duedate}} dateStringTwo=&lt;&lt;dayTag&gt;&gt;/&gt;\&quot;\&quot;\&quot;&gt;\n            &lt;&lt;taskButton&gt;&gt;\n&lt;/$wikify&gt;&lt;/$wikify&gt;&lt;/$wikify&gt;\n&lt;/$reveal&gt;&lt;/$reveal&gt;\n&lt;/$tiddler&gt;\n&quot;,
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6&quot;,
             &quot;tags&quot;: &quot;taskbutton&quot;,
             &quot;monthsofyear&quot;: &quot;January February March April May June July August September October November December&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181227155423097&quot;,
+            &quot;modified&quot;: &quot;20190113183014419&quot;,
             &quot;list-after&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button7&quot;,
             &quot;creator&quot;: &quot;schulerbot&quot;,
             &quot;created&quot;: &quot;20181217025203510&quot;
@@ -10238,7 +9762,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
             &quot;recurring2&quot;: &quot;weeks&quot;,
             &quot;recurring1&quot;: &quot;4&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181227155310169&quot;,
+            &quot;modified&quot;: &quot;20190113182006649&quot;,
             &quot;datetype&quot;: &quot;every&quot;,
             &quot;creator&quot;: &quot;Schulerbot&quot;,
             &quot;created&quot;: &quot;20181217025219611&quot;
@@ -10269,22 +9793,22 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
             &quot;created&quot;: &quot;20181217025236144&quot;
         },
         &quot;$:/plugins/schulerbot/TW5Tasks/readme&quot;: {
-            &quot;text&quot;: &quot;&lt;h2&gt;TW5Tasks&lt;/h2&gt;\n\nThis is version 0.0.7 (Beta).  A simple task manager. \n\nCreate a tiddler with filters and tag it {{taskboard||$:/core/ui/TagTemplate}}&lt;br&gt;\nYou can copy the included example [[here|$:/plugins/schulerbot/TW5Tasks/dashboard]].\n\nInstructions and more detailed description to follow in later versions.  As well a comments section and links to things. For now, if you come across this and wish to correspond, email schulerbot@gmail.com.&quot;,
+            &quot;created&quot;: &quot;20181219032546179&quot;,
+            &quot;creator&quot;: &quot;schulerbot&quot;,
+            &quot;text&quot;: &quot;&lt;h2&gt;TW5Tasks&lt;/h2&gt;\n\nThis is version 0.1.1 (Beta).  A simple task manager. \n\nCreate a tiddler with filters and tag it {{taskboard||$:/core/ui/TagTemplate}}&lt;br&gt;\nYou can copy the included example [[here|$:/plugins/schulerbot/TW5Tasks/dashboard]].\n\nInstructions and more detailed description to follow in later versions.  As well a comments section and links to things. For now, if you come across this and wish to correspond, email schulerbot@gmail.com.&quot;,
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/readme&quot;,
             &quot;tags&quot;: &quot;&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181227155602458&quot;,
-            &quot;creator&quot;: &quot;schulerbot&quot;,
-            &quot;created&quot;: &quot;20181219032546179&quot;
+            &quot;modified&quot;: &quot;20190113190021822&quot;
         },
         &quot;$:/plugins/schulerbot/TW5Tasks/history&quot;: {
-            &quot;text&quot;: &quot;*''v0.0.7 (beta)''\n** added calendar popup functionality to button6 (new tiddler: $:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar)  \n**__fixed bug__: calendar staying open past selection\n*''v0.0.6 (beta)''\n** added another recurring option of \&quot;every\&quot; \n** made popups distinct for easier use\n**__fixed bug__: menus staying open past selection\n**__fixed bug__: task title entry conflicts with \&quot;now\&quot; macro\n*''v0.0.5 (beta)''\n**initial plugin release for testing\n*''v0.0.1 (beta)''\n**Figured out how to make a plugin&quot;,
+            &quot;created&quot;: &quot;20181219033213476&quot;,
+            &quot;creator&quot;: &quot;schulerbot&quot;,
+            &quot;text&quot;: &quot;*''v0.1.1 (beta)''\n** refactored some code to conform to standard method of triggering action widgets.\n** __Added__ $:/plugins/schulerbot/TW5Tasks/config and $:/plugins/schulerbot/TW5Tasks/tasktemplate/config and $:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata to project to enable simple css customization of task objects.\n**Adjusted $:/plugins/schulerbot/TW5Tasks/stylesheet to work with new css config tool\n** Fixed calendar bugs\n*''v0.0.7 (beta)''\n** added calendar popup functionality to button6 (new tiddler: $:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar)  \n**__fixed bug__: calendar staying open past selection\n*''v0.0.6 (beta)''\n** added another recurring option of \&quot;every\&quot; \n** made popups distinct for easier use\n**__fixed bug__: menus staying open past selection\n**__fixed bug__: task title entry conflicts with \&quot;now\&quot; macro\n*''v0.0.5 (beta)''\n**initial plugin release for testing\n*''v0.0.1 (beta)''\n**Figured out how to make a plugin&quot;,
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/history&quot;,
             &quot;tags&quot;: &quot;&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181227160200131&quot;,
-            &quot;creator&quot;: &quot;schulerbot&quot;,
-            &quot;created&quot;: &quot;20181219033213476&quot;
+            &quot;modified&quot;: &quot;20190113190044784&quot;
         },
         &quot;$:/plugins/schulerbot/TW5Tasks/license&quot;: {
             &quot;text&quot;: &quot;&lt;h3&gt;Copyright 2018, schulerbot&lt;/h3&gt;\n\n&lt;h3&gt;Licensed under the [ext[MIT License|https://opensource.org/licenses/mit-license.html]].&lt;/h3&gt;\n\n---\n\n&lt;h3&gt;Dependent plugins&lt;/h3&gt;\n\n* [[TW5FontAwesome|$:/plugins/TheDiveO/FontAwesome]] - [[license|$:/plugins/TheDiveO/FontAwesome/license]]\n\n*[[Calendar|$:/plugins/inmysocks/Calendar]] - [ext[website|https://ooktech.com/jed/externalbrain/#Calendar%20Archives]]\n\n*[[Formulas|$:/plugins/ebalster/formula]] - [[license|$:/plugins/ebalster/formula/license]]&quot;,
@@ -10299,24 +9823,49 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
             &quot;text&quot;: &quot;\\define forwardMonth()\n    &lt;$reveal type=\&quot;nomatch\&quot; state=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!month\&quot; text=\&quot;December\&quot;&gt;\n        &lt;$button class=\&quot;tc-btn-invisible\&quot;&gt;\n            &lt;$set name=\&quot;selectedMonth\&quot; filter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!monthcarouselforward]first[]]\&quot;&gt;\n                &lt;$action-setfield $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;month\&quot; $value=&lt;&lt;selectedMonth&gt;&gt;/&gt;\n                &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;monthcarouselforward\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allafter&lt;selectedMonth&gt;]\&quot;/&gt;\n                &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;monthcarouselreverse\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allbefore&lt;selectedMonth&gt;]\&quot;/&gt;\n&lt;i class=\&quot;far fa-caret-square-right fa-2x\&quot;&gt;&lt;/i&gt;\n            &lt;/$set&gt;\n        &lt;/$button&gt;\n    &lt;/$reveal&gt;\n    &lt;$reveal type=\&quot;match\&quot; state=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!month\&quot; text=\&quot;December\&quot;&gt;\n        &lt;$button class=\&quot;tc-btn-invisible\&quot;&gt;\n            &lt;$set name=\&quot;selectedMonth\&quot; filter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!monthcarouselreverse]first[]]\&quot;&gt;\n                &lt;$action-setfield $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;month\&quot; $value=&lt;&lt;selectedMonth&gt;&gt;/&gt;\n                &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;monthcarouselforward\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allafter&lt;selectedMonth&gt;]\&quot;/&gt;\n                &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;monthcarouselreverse\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allbefore&lt;selectedMonth&gt;]\&quot;/&gt;\n                &lt;$action-setfield $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;year\&quot; $value=&lt;&lt;yearForward&gt;&gt;/&gt;\n&lt;i class=\&quot;far fa-caret-square-right fa-2x\&quot;&gt;&lt;/i&gt;\n            &lt;/$set&gt;\n        &lt;/$button&gt;\n    &lt;/$reveal&gt;\n\\end\n\n\\define reverseMonth()\n    &lt;$reveal type=\&quot;nomatch\&quot; state=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!month\&quot; text=\&quot;January\&quot;&gt;\n        &lt;$button class=\&quot;tc-btn-invisible\&quot;&gt;\n            &lt;$set name=\&quot;selectedMonth\&quot; filter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!monthcarouselreverse]last[]]\&quot;&gt;\n                &lt;$action-setfield $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;month\&quot; $value=&lt;&lt;selectedMonth&gt;&gt;/&gt;\n                &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;monthcarouselforward\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allafter&lt;selectedMonth&gt;]\&quot;/&gt;\n                &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;monthcarouselreverse\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allbefore&lt;selectedMonth&gt;]\&quot;/&gt;\n&lt;i class=\&quot;far fa-caret-square-left fa-2x\&quot;&gt;&lt;/i&gt;\n            &lt;/$set&gt;\n        &lt;/$button&gt;\n    &lt;/$reveal&gt;\n    &lt;$reveal type=\&quot;match\&quot; state=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!month\&quot; text=\&quot;January\&quot;&gt;\n        &lt;$button class=\&quot;tc-btn-invisible\&quot;&gt;\n            &lt;$set name=\&quot;selectedMonth\&quot; filter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!monthcarouselforward]last[]]\&quot;&gt;\n                &lt;$action-setfield $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;month\&quot; $value=&lt;&lt;selectedMonth&gt;&gt;/&gt;\n                &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;monthcarouselforward\&quot; $subfilter=\&quot;[list[tasktemplate/button6!!monthsofyear]] +[allafter&lt;selectedMonth&gt;]\&quot;/&gt;\n                &lt;$action-listops $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;monthcarouselreverse\&quot; $subfilter=\&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allbefore&lt;selectedMonth&gt;]\&quot;/&gt;\n                &lt;$action-setfield $tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar\&quot; $field=\&quot;year\&quot; $value=&lt;&lt;yearReverse&gt;&gt;/&gt;\n&lt;i class=\&quot;far fa-caret-square-left fa-2x\&quot;&gt;&lt;/i&gt;\n            &lt;/$set&gt;\n        &lt;/$button&gt;\n    &lt;/$reveal&gt;\n\\end\n\n\\define title() \n{{!!month}}, {{!!year}}\n\\end\n&lt;div style=\&quot;text-align:center; background-color:white; margin: 2px; padding:2px; border-style:solid; border-width:1px;\&quot;&gt;\n&lt;$wikify name=\&quot;yearForward\&quot; text={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!yearforward}}&gt;\n    &lt;$wikify name=\&quot;yearReverse\&quot; text={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!yearreverse}}&gt;\n        &lt;&lt;reverseMonth&gt;&gt;      &lt;&lt;title&gt;&gt; \n     &lt;&lt;forwardMonth&gt;&gt;\n    &lt;/$wikify&gt;\n&lt;/$wikify&gt;\n\n    &lt;$calendar-month year={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!year}} month={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!month}} day_macro=DueDateCreate class=calendar-tablesmall/&gt;\n&lt;/div&gt;\n\n&quot;,
             &quot;yearreverse&quot;: &quot;(={{!!year}}-1=)&quot;,
             &quot;yearforward&quot;: &quot;(={{!!year}}+1=)&quot;,
-            &quot;year&quot;: &quot;2018&quot;,
+            &quot;year&quot;: &quot;2019&quot;,
             &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot;,
             &quot;tags&quot;: &quot;&quot;,
-            &quot;monthcarouselreverse&quot;: &quot;January February March April May June July August September October November&quot;,
-            &quot;monthcarouselforward&quot;: &quot;&quot;,
-            &quot;month&quot;: &quot;December&quot;,
+            &quot;monthcarouselreverse&quot;: &quot;&quot;,
+            &quot;monthcarouselforward&quot;: &quot;February March April May June July August September October November December&quot;,
+            &quot;month&quot;: &quot;January&quot;,
             &quot;modifier&quot;: &quot;schulerbot&quot;,
-            &quot;modified&quot;: &quot;20181227155437857&quot;,
+            &quot;modified&quot;: &quot;20190113184358723&quot;,
             &quot;creator&quot;: &quot;schulerbot&quot;,
             &quot;created&quot;: &quot;20181227154259646&quot;
+        },
+        &quot;$:/plugins/schulerbot/TW5Tasks/config&quot;: {
+            &quot;created&quot;: &quot;20190109024539057&quot;,
+            &quot;creator&quot;: &quot;schulerbot&quot;,
+            &quot;text&quot;: &quot;To use this: Create some tiddlers tagged {{SampleTask||$:/core/ui/TagTemplate}}\n\n\n{{$:/plugins/schulerbot/TW5Tasks/tasktemplate/config}}\n\n\n&lt;$wikify name=\&quot;dayTag\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;now\&quot; format=\&quot;ddd0DDmmmYYYY\&quot;/&gt;\&quot;\&quot;\&quot;&gt;\n\n&lt;h1&gt;&lt;u&gt;Simple&lt;/u&gt;&lt;/h1&gt;\n&lt;&lt;list-tagged-draggable tag: \&quot;SampleTask\&quot; subFilter:\&quot;has[complete]!regexp:complete[yes]!has[recurringfrequency]\&quot; itemTemplate:\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate\&quot; emptyMessage:\&quot;Something is wrong\&quot;&gt;&gt;\n&lt;h1&gt;&lt;u&gt;Recurring&lt;/u&gt;&lt;/h1&gt;\n&lt;&lt;list-tagged-draggable tag: \&quot;SampleTask\&quot; subFilter:\&quot;has[complete]!regexp:complete[yes]has[recurringfrequency]\&quot; itemTemplate:\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate\&quot; emptyMessage:\&quot;Something is wrong\&quot;&gt;&gt;\n&lt;h1&gt;&lt;u&gt;Complete&lt;/u&gt;&lt;/h1&gt;\n&lt;&lt;list-tagged-draggable tag: \&quot;SampleTask\&quot; subFilter:\&quot;has[complete]regexp:complete[yes]\&quot; itemTemplate:\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate\&quot; emptyMessage:\&quot;Something is wrong\&quot;&gt;&gt;\n&lt;h1&gt;&lt;u&gt;Evaluate Spacing&lt;/u&gt;&lt;/h1&gt;\n&lt;&lt;list-tagged-draggable tag: \&quot;SampleTask\&quot; itemTemplate:\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate\&quot; emptyMessage:\&quot;Something is wrong\&quot;&gt;&gt;\n\n&lt;/$wikify&gt;&quot;,
+            &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/config&quot;,
+            &quot;tags&quot;: &quot;TW5Tasks taskboard&quot;,
+            &quot;modifier&quot;: &quot;schulerbot&quot;,
+            &quot;modified&quot;: &quot;20190113190302663&quot;
+        },
+        &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/config&quot;: {
+            &quot;text&quot;: &quot;&lt;!--\n| icon code: | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;iconcode\&quot; default=\&quot;2x\&quot; tag=\&quot;input\&quot;/&gt; |&lt;|\n| icon color: | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;iconcolor\&quot; default=\&quot;black\&quot; tag=\&quot;input\&quot;/&gt; |&lt;|\n| icon-size: | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;iconsize\&quot; default=\&quot;2x\&quot; tag=\&quot;input\&quot;/&gt; |&lt;|\n--&gt;\n\n\n\n| property | .tc-btn-task-left | .tc-btn-task-right | .tc-tiddler-body .tc-menu-list-item |\n| float: | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btl_float\&quot; default=\&quot;left\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btr_float\&quot; default=\&quot;right\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;list_float\&quot; default=\&quot;none\&quot; tag=\&quot;input\&quot;/&gt; |\n| background-color: | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btl_backgroundcolor\&quot; default=\&quot;white\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btr_backgroundcolor\&quot; default=\&quot;white\&quot; tag=\&quot;input\&quot;/&gt; |  &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;list_backgroundcolor\&quot; default=\&quot;white\&quot; tag=\&quot;input\&quot;/&gt; |\n| border-style: | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btl_borderstyle\&quot; default=\&quot;solid\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btr_borderstyle\&quot; default=\&quot;solid\&quot; tag=\&quot;input\&quot;/&gt; |  &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;list_borderstyle\&quot; default=\&quot;solid\&quot; tag=\&quot;input\&quot;/&gt; |\n| border-color: | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btl_bordercolor\&quot; default=\&quot;black\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btr_bordercolor\&quot; default=\&quot;black\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;list_bordercolor\&quot; default=\&quot;black\&quot; tag=\&quot;input\&quot;/&gt; |\n| border-width: | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btl_borderwidth\&quot; default=\&quot;2\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btr_borderwidth\&quot; default=\&quot;2\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;list_borderwidth\&quot; default=\&quot;2\&quot; tag=\&quot;input\&quot;/&gt; |\n| border-radius: | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btl_borderradius\&quot; default=\&quot;35\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btr_borderradius\&quot; default=\&quot;35\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;list_borderradius\&quot; default=\&quot;35\&quot; tag=\&quot;input\&quot;/&gt; |\n| margin: | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btl_margin\&quot; default=\&quot;5\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btr_margin\&quot; default=\&quot;5\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;list_margin\&quot; default=\&quot;5\&quot; tag=\&quot;input\&quot;/&gt; |\n| padding: | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btl_padding\&quot; default=\&quot;5\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btr_padding\&quot; default=\&quot;5\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;list_padding\&quot; default=\&quot;5\&quot; tag=\&quot;input\&quot;/&gt; |\n| height: | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btl_height\&quot; default=\&quot;50\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btr_height\&quot; default=\&quot;50\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;list_height\&quot; default=\&quot;50\&quot; tag=\&quot;input\&quot;/&gt; |\n| min-width: | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btl_minwidth\&quot; default=\&quot;50\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;btr_minwidth\&quot; default=\&quot;50\&quot; tag=\&quot;input\&quot;/&gt; | &lt;$edit-text tiddler=\&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata\&quot; index=\&quot;list_minwidth\&quot; default=\&quot;50\&quot; tag=\&quot;input\&quot;/&gt; |&quot;,
+            &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/config&quot;,
+            &quot;tags&quot;: &quot;TW5Tasks&quot;,
+            &quot;modifier&quot;: &quot;schulerbot&quot;,
+            &quot;modified&quot;: &quot;20190110195359245&quot;,
+            &quot;creator&quot;: &quot;schulerbot&quot;,
+            &quot;created&quot;: &quot;20181229033936105&quot;
+        },
+        &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata&quot;: {
+            &quot;text&quot;: &quot;{\n    \&quot;btl_float\&quot;: \&quot;left\&quot;,\n    \&quot;btl_backgroundcolor\&quot;: \&quot;white\&quot;,\n    \&quot;btl_borderstyle\&quot;: \&quot;solid\&quot;,\n    \&quot;btl_bordercolor\&quot;: \&quot;black\&quot;,\n    \&quot;btl_borderwidth\&quot;: \&quot;2\&quot;,\n    \&quot;btl_borderradius\&quot;: \&quot;40\&quot;,\n    \&quot;btl_margin\&quot;: \&quot;1\&quot;,\n    \&quot;btl_padding\&quot;: \&quot;1\&quot;,\n    \&quot;btl_height\&quot;: \&quot;40\&quot;,\n    \&quot;btl_minwidth\&quot;: \&quot;40\&quot;,\n    \&quot;btr_float\&quot;: \&quot;right\&quot;,\n    \&quot;btr_backgroundcolor\&quot;: \&quot;white\&quot;,\n    \&quot;btr_borderstyle\&quot;: \&quot;solid\&quot;,\n    \&quot;btr_bordercolor\&quot;: \&quot;black\&quot;,\n    \&quot;btr_borderwidth\&quot;: \&quot;2\&quot;,\n    \&quot;btr_borderradius\&quot;: \&quot;40\&quot;,\n    \&quot;btr_margin\&quot;: \&quot;1\&quot;,\n    \&quot;btr_padding\&quot;: \&quot;1\&quot;,\n    \&quot;btr_height\&quot;: \&quot;40\&quot;,\n    \&quot;btr_minwidth\&quot;: \&quot;40\&quot;,\n    \&quot;iconsize\&quot;: \&quot;fa-3x\\\&quot;\&quot;,\n    \&quot;iconcolor\&quot;: \&quot;red\&quot;,\n    \&quot;iconcode\&quot;: \&quot;far fa-circle\&quot;,\n    \&quot;list_float\&quot;: \&quot;none\&quot;,\n    \&quot;list_backgroundcolor\&quot;: \&quot;white\&quot;,\n    \&quot;list_borderstyle\&quot;: \&quot;solid\&quot;,\n    \&quot;list_bordercolor\&quot;: \&quot;black\&quot;,\n    \&quot;list_borderwidth\&quot;: \&quot;1\&quot;,\n    \&quot;list_borderradius\&quot;: \&quot;5\&quot;,\n    \&quot;list_margin\&quot;: \&quot;0\&quot;,\n    \&quot;list_padding\&quot;: \&quot;5\&quot;,\n    \&quot;list_height\&quot;: \&quot;56\&quot;,\n    \&quot;list_minwidth\&quot;: \&quot;40\&quot;\n}&quot;,
+            &quot;type&quot;: &quot;application/json&quot;,
+            &quot;title&quot;: &quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/styledata&quot;,
+            &quot;tags&quot;: &quot;TW5Tasks&quot;,
+            &quot;modifier&quot;: &quot;schulerbot&quot;,
+            &quot;modified&quot;: &quot;20190110033139573&quot;,
+            &quot;creator&quot;: &quot;schulerbot&quot;,
+            &quot;created&quot;: &quot;20181229032729922&quot;
         }
     }
 }</pre>
 </div>
-<div created="20181217024545615" creator="schulerbot" modified="20190108031759752" modifier="schulerbot" title="$:/plugins/schulerbot/TW5Tasks/module/createtask/title">
-<pre></pre>
-</div>
-<div created="20181217024717235" creator="schulerbot" modified="20190108030258280" modifier="schulerbot" tags="taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button1">
+<div created="20181217024717235" creator="schulerbot" modified="20190114022712898" modifier="schulerbot" tags="taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button1">
 <pre>&lt;$tiddler tiddler=&lt;&lt;taskObject&gt;&gt;&gt;
 &lt;$wikify name=&quot;dueDay&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;datetranslate&quot; date={{!!duedate}} reqParam=&quot;day&quot; /&gt;&quot;&quot;&quot;&gt;
 &lt;$wikify name=&quot;dueMonth&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;datetranslate&quot; date={{!!duedate}} reqParam=&quot;month&quot; /&gt;&quot;&quot;&quot;&gt;
@@ -10348,7 +9897,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
 &lt;/$wikify&gt;&lt;/$wikify&gt;&lt;/$wikify&gt;&lt;/$wikify&gt;&lt;/$wikify&gt;&lt;/$wikify&gt;
 &lt;/$tiddler&gt;</pre>
 </div>
-<div created="20181217025039527" creator="Schulerbot" list-after="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button8" modified="20190108030509245" modifier="schulerbot" tags="tasksubmenu taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button10">
+<div created="20181217025039527" creator="Schulerbot" list-after="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button8" modified="20190114022726247" modifier="schulerbot" tags="tasksubmenu taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button10">
 <pre>\define taskButton()
 &lt;$button popup=&lt;&lt;qualify &quot;$:/state/TW5Tasks/recurring&quot;&gt;&gt; tooltip=&quot;delete task&quot; class=&quot;tc-btn-task-right tc-btn-invisible&quot;&gt;
 &lt;i class=&quot;fas fa-trash fa-2x&quot; style=&quot;color:black;&quot;&gt;&lt;/i&gt;
@@ -10396,40 +9945,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
 &lt;/$tiddler&gt;
 </pre>
 </div>
-<div created="20181217024736721" creator="schulerbot" modified="20190108030517849" modifier="schulerbot" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button10/areyousure">
-<pre>&lt;div style=&quot;background-color:white; margin: 2px; padding:2px; border-style:solid; border-width:1px;&quot;&gt;
-&lt;$button class=&quot;tc-btn-invisible&quot;&gt;
-        &lt;$action-deletetiddler $tiddler=&lt;&lt;taskObject&gt;&gt;/&gt;
-&lt;h3&gt;are you sure?&lt;/h3&gt;
-&lt;i class=&quot;far fa-trash-alt fa-2x&quot;&gt;&lt;/i&gt;&lt;/$button&gt;
-&lt;/div&gt;</pre>
-</div>
-<div created="20181217024806393" creator="Schulerbot" modified="20190108030526221" modifier="schulerbot" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button10/recurringdelete">
-<pre>&lt;div style=&quot;background-color:white; margin: 2px; padding:2px; border-style:solid; border-width:1px;&quot;&gt;
-&lt;$tiddler tiddler=&lt;&lt;taskObject&gt;&gt;
-&lt;$wikify name=&quot;dueDay&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;datetranslate&quot; date={{!!duedate}} reqParam=&quot;day&quot; /&gt;&quot;&quot;&quot;&gt;
-&lt;$wikify name=&quot;dueMonth&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;datetranslate&quot; date={{!!duedate}} reqParam=&quot;month&quot; /&gt;&quot;&quot;&quot;&gt;
-&lt;$wikify name=&quot;dueYear&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;datetranslate&quot; date={{!!duedate}} reqParam=&quot;year&quot; /&gt;&quot;&quot;&quot;&gt;
-&lt;$wikify name=&quot;nextDueDate&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;recurring&quot; year=&lt;&lt;dueYear&gt;&gt; month=&lt;&lt;dueMonth&gt;&gt; day=&lt;&lt;dueDay&gt;&gt; frequency={{!!recurringfrequency}} /&gt;&quot;&quot;&quot;&gt;
-
-&lt;$button class=&quot;tc-btn-invisible&quot;&gt;
-        &lt;$action-deletetiddler $tiddler=&lt;&lt;taskObject&gt;&gt;/&gt;
-&lt;h3&gt;delete series?&lt;/h3&gt;
-&lt;i class=&quot;fas fa-coins fa-2x&quot;&gt;&lt;/i&gt;&lt;/$button&gt;
-
-
-&lt;$button class=&quot;tc-btn-invisible&quot;&gt;
-        &lt;$action-setfield $tiddler=&lt;&lt;taskObject&gt;&gt; $field=&quot;duedate&quot; $value=&lt;&lt;nextDueDate&gt;&gt;/&gt;
-        &lt;$action-deletetiddler $filter=&quot;[prefix[$:/state/TW5Tasks/menu]]&quot; /&gt;
-&lt;h3&gt;delete single?&lt;/h3&gt;
-&lt;i class=&quot;fas fa-database fa-2x&quot;&gt;&lt;/i&gt;&lt;/$button&gt;
-
-&lt;/$wikify&gt;&lt;/$wikify&gt;&lt;/$wikify&gt;&lt;/$wikify&gt;
-&lt;/$tiddler&gt;
-&lt;/div&gt;
-</pre>
-</div>
-<div created="20181217024822501" creator="schulerbot" modified="20190108030307986" modifier="schulerbot" tags="taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button2">
+<div created="20181217024822501" creator="schulerbot" modified="20190114022733606" modifier="schulerbot" tags="taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button2">
 <pre>&lt;$tiddler tiddler=&lt;&lt;taskObject&gt;&gt;&gt;
 &lt;$reveal type=&quot;nomatch&quot; state=&quot;!!complete&quot; text=&quot;yes&quot;&gt;
  &lt;$button to={{!!title}} class=&quot;tc-btn-task&quot;&gt;
@@ -10444,7 +9960,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
 &lt;/$tiddler&gt;
 </pre>
 </div>
-<div created="20181217025006027" creator="schulerbot" list-after="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button8" modified="20190108030322461" modifier="schulerbot" tags="taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button3">
+<div created="20181217025006027" creator="schulerbot" list-after="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button8" modified="20190114022740644" modifier="schulerbot" tags="taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button3">
 <pre>&lt;$tiddler tiddler=&lt;&lt;taskObject&gt;&gt;&gt;
 &lt;$reveal type=&quot;match&quot; state=&quot;!!complete&quot; text=&quot;yes&quot;&gt;
 &lt;$wikify name=&quot;dueDay&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;datetranslate&quot; date={{!!duedate}} reqParam=&quot;day&quot; /&gt;&quot;&quot;&quot;&gt;
@@ -10464,7 +9980,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
 
 </pre>
 </div>
-<div created="20181217025131672" creator="schulerbot" list-after="tasktemplate/button5" modified="20190108030347271" modifier="schulerbot" tags="tasksubmenu taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button4">
+<div created="20181217025131672" creator="schulerbot" list-after="tasktemplate/button5" modified="20190114022748291" modifier="schulerbot" tags="tasksubmenu taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button4">
 <pre>&lt;$tiddler tiddler=&lt;&lt;taskObject&gt;&gt;&gt;
 &lt;$reveal type=&quot;nomatch&quot; state=&quot;!!complete&quot; text=&quot;yes&quot;&gt;
     &lt;$reveal type=&quot;nomatch&quot; state=&quot;!!duedate&quot; text=&lt;&lt;dayTag&gt;&gt;&gt;
@@ -10485,7 +10001,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
 &lt;/$tiddler&gt;
 </pre>
 </div>
-<div created="20181217025055239" creator="schulerbot" list-after="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button10" modified="20190108030357986" modifier="schulerbot" monthsofyear="January February March April May June July August September October November December" tags="tasksubmenu taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5">
+<div created="20181217025055239" creator="schulerbot" list-after="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button10" modified="20190114022755000" modifier="schulerbot" monthsofyear="January February March April May June July August September October November December" tags="tasksubmenu taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5">
 <pre>\define taskButton()
 &lt;$button popup=&lt;&lt;qualify &quot;$:/state/TW5Tasks/calendar&quot;&gt;&gt; tooltip=&quot;set the due date&quot; class=&quot;tc-btn-task-right tc-btn-invisible&quot;&gt;
         &lt;$action-setfield $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar&quot; month=&lt;&lt;monthStart&gt;&gt; year=&lt;&lt;yearStart&gt;&gt;/&gt;
@@ -10509,80 +10025,15 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
 &lt;/$reveal&gt;
 &lt;/$tiddler&gt;</pre>
 </div>
-<div created="20181217024838509" creator="Schulerbot" modified="20190108031721150" modifier="schulerbot" month="January" monthcarouselforward="February March April May June July August September October November December" monthcarouselreverse="" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar" year="2019" yearforward="(={{!!year}}+1=)" yearreverse="(={{!!year}}-1=)">
-<pre>\define forwardMonth()
-    &lt;$reveal type=&quot;nomatch&quot; state=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!month&quot; text=&quot;December&quot;&gt;
-        &lt;$button class=&quot;tc-btn-invisible&quot;&gt;
-            &lt;$set name=&quot;selectedMonth&quot; filter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!monthcarouselforward]first[]]&quot;&gt;
-                &lt;$action-setfield $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar&quot; $field=&quot;month&quot; $value=&lt;&lt;selectedMonth&gt;&gt;/&gt;
-                &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar&quot; $field=&quot;monthcarouselforward&quot; $subfilter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5!!monthsofyear]] +[allafter&lt;selectedMonth&gt;]&quot;/&gt;
-                &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar&quot; $field=&quot;monthcarouselreverse&quot; $subfilter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5!!monthsofyear]] +[allbefore&lt;selectedMonth&gt;]&quot;/&gt;
-&lt;i class=&quot;far fa-caret-square-right fa-2x&quot;&gt;&lt;/i&gt;
-            &lt;/$set&gt;
-        &lt;/$button&gt;
-    &lt;/$reveal&gt;
-    &lt;$reveal type=&quot;match&quot; state=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!month&quot; text=&quot;December&quot;&gt;
-        &lt;$button class=&quot;tc-btn-invisible&quot;&gt;
-            &lt;$set name=&quot;selectedMonth&quot; filter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!monthcarouselreverse]first[]]&quot;&gt;
-                &lt;$action-setfield $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar&quot; $field=&quot;month&quot; $value=&lt;&lt;selectedMonth&gt;&gt;/&gt;
-                &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar&quot; $field=&quot;monthcarouselforward&quot; $subfilter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5!!monthsofyear]] +[allafter&lt;selectedMonth&gt;]&quot;/&gt;
-                &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar&quot; $field=&quot;monthcarouselreverse&quot; $subfilter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5!!monthsofyear]] +[allbefore&lt;selectedMonth&gt;]&quot;/&gt;
-                &lt;$action-setfield $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar&quot; $field=&quot;year&quot; $value=&lt;&lt;yearForward&gt;&gt;/&gt;
-&lt;i class=&quot;far fa-caret-square-right fa-2x&quot;&gt;&lt;/i&gt;
-            &lt;/$set&gt;
-        &lt;/$button&gt;
-    &lt;/$reveal&gt;
-\end
-
-\define reverseMonth()
-    &lt;$reveal type=&quot;nomatch&quot; state=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!month&quot; text=&quot;January&quot;&gt;
-        &lt;$button class=&quot;tc-btn-invisible&quot;&gt;
-            &lt;$set name=&quot;selectedMonth&quot; filter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!monthcarouselreverse]last[]]&quot;&gt;
-                &lt;$action-setfield $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar&quot; $field=&quot;month&quot; $value=&lt;&lt;selectedMonth&gt;&gt;/&gt;
-                &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar&quot; $field=&quot;monthcarouselforward&quot; $subfilter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5!!monthsofyear]] +[allafter&lt;selectedMonth&gt;]&quot;/&gt;
-                &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar&quot; $field=&quot;monthcarouselreverse&quot; $subfilter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5!!monthsofyear]] +[allbefore&lt;selectedMonth&gt;]&quot;/&gt;
-&lt;i class=&quot;far fa-caret-square-left fa-2x&quot;&gt;&lt;/i&gt;
-            &lt;/$set&gt;
-        &lt;/$button&gt;
-    &lt;/$reveal&gt;
-    &lt;$reveal type=&quot;match&quot; state=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!month&quot; text=&quot;January&quot;&gt;
-        &lt;$button class=&quot;tc-btn-invisible&quot;&gt;
-            &lt;$set name=&quot;selectedMonth&quot; filter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!monthcarouselforward]last[]]&quot;&gt;
-                &lt;$action-setfield $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar&quot; $field=&quot;month&quot; $value=&lt;&lt;selectedMonth&gt;&gt;/&gt;
-                &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar&quot; $field=&quot;monthcarouselforward&quot; $subfilter=&quot;[list[tasktemplate/button5!!monthsofyear]] +[allafter&lt;selectedMonth&gt;]&quot;/&gt;
-                &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar&quot; $field=&quot;monthcarouselreverse&quot; $subfilter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5!!monthsofyear]] +[allbefore&lt;selectedMonth&gt;]&quot;/&gt;
-                &lt;$action-setfield $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar&quot; $field=&quot;year&quot; $value=&lt;&lt;yearReverse&gt;&gt;/&gt;
-&lt;i class=&quot;far fa-caret-square-left fa-2x&quot;&gt;&lt;/i&gt;
-            &lt;/$set&gt;
-        &lt;/$button&gt;
-    &lt;/$reveal&gt;
-\end
-
-\define title() 
-{{!!month}}, {{!!year}}
-\end
-&lt;div style=&quot;text-align:center; background-color:white; margin: 2px; padding:2px; border-style:solid; border-width:1px;&quot;&gt;
-&lt;$wikify name=&quot;yearForward&quot; text={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!yearforward}}&gt;
-    &lt;$wikify name=&quot;yearReverse&quot; text={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!yearreverse}}&gt;
-        &lt;&lt;reverseMonth&gt;&gt;      &lt;&lt;title&gt;&gt; 
-     &lt;&lt;forwardMonth&gt;&gt;
-    &lt;/$wikify&gt;
-&lt;/$wikify&gt;
-
-    &lt;$calendar-month year={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!year}} month={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button5/calendar!!month}} day_macro=DueDateCreate class=calendar-tablesmall/&gt;
-&lt;/div&gt;
-
-</pre>
-</div>
-<div created="20181217025203510" creator="schulerbot" list-after="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button7" modified="20190108030417260" modifier="schulerbot" monthsofyear="January February March April May June July August September October November December" tags="taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6">
+<div created="20181217025203510" creator="schulerbot" list-after="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button7" modified="20190114022804861" modifier="schulerbot" monthsofyear="January February March April May June July August September October November December" tags="taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6">
 <pre>\define taskButton()
-&lt;$button popup=&lt;&lt;qualify &quot;$:/state/TW5Tasks/calendar&quot;&gt;&gt; tooltip=&quot;set the due date&quot; class=&quot;tc-btn-task-right tc-btn-invisible&quot; style=&quot;color:black; font-size: x-small;&quot;&gt;
+&lt;$button popup=&lt;&lt;qualify &quot;$:/state/TW5Tasks/calendar2&quot;&gt;&gt; tooltip=&quot;set the due date&quot; class=&quot;tc-btn-task-right tc-btn-invisible&quot; style=&quot;color:black; font-size: x-small;&quot;&gt;
         &lt;$action-setfield $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot; month=&lt;&lt;monthStart&gt;&gt; year=&lt;&lt;yearStart&gt;&gt;/&gt;
         &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot; $field=&quot;monthcarouselforward&quot; $subfilter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allafter{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!month}]&quot;/&gt;
         &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot; $field=&quot;monthcarouselreverse&quot; $subfilter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allbefore{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!month}]&quot;/&gt;
 &lt;$text text=&lt;&lt;duecompare&gt;&gt;/&gt;
-    &lt;/$button&gt;&lt;$reveal state=&lt;&lt;qualify &quot;$:/state/TW5Tasks/calendar&quot;&gt;&gt; type=&quot;popup&quot; position=&quot;left&quot; animate=&quot;yes&quot;&gt;
-        &lt;div class=&quot;tc-task-popup&quot;&gt;
+    &lt;/$button&gt;&lt;$reveal state=&lt;&lt;qualify &quot;$:/state/TW5Tasks/calendar2&quot;&gt;&gt; type=&quot;popup&quot; position=&quot;left&quot; animate=&quot;yes&quot;&gt;
+        &lt;div class=&quot;tc-task-popup tc-popup-keep&quot;&gt;
             {{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar}}
         &lt;/div&gt;
     &lt;/$reveal&gt;
@@ -10600,72 +10051,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
 &lt;/$tiddler&gt;
 </pre>
 </div>
-<div created="20181227154259646" creator="schulerbot" modified="20190108030425956" modifier="schulerbot" month="December" monthcarouselforward="" monthcarouselreverse="January February March April May June July August September October November" tags="" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar" year="2018" yearforward="(={{!!year}}+1=)" yearreverse="(={{!!year}}-1=)">
-<pre>\define forwardMonth()
-    &lt;$reveal type=&quot;nomatch&quot; state=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!month&quot; text=&quot;December&quot;&gt;
-        &lt;$button class=&quot;tc-btn-invisible&quot;&gt;
-            &lt;$set name=&quot;selectedMonth&quot; filter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!monthcarouselforward]first[]]&quot;&gt;
-                &lt;$action-setfield $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot; $field=&quot;month&quot; $value=&lt;&lt;selectedMonth&gt;&gt;/&gt;
-                &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot; $field=&quot;monthcarouselforward&quot; $subfilter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allafter&lt;selectedMonth&gt;]&quot;/&gt;
-                &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot; $field=&quot;monthcarouselreverse&quot; $subfilter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allbefore&lt;selectedMonth&gt;]&quot;/&gt;
-&lt;i class=&quot;far fa-caret-square-right fa-2x&quot;&gt;&lt;/i&gt;
-            &lt;/$set&gt;
-        &lt;/$button&gt;
-    &lt;/$reveal&gt;
-    &lt;$reveal type=&quot;match&quot; state=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!month&quot; text=&quot;December&quot;&gt;
-        &lt;$button class=&quot;tc-btn-invisible&quot;&gt;
-            &lt;$set name=&quot;selectedMonth&quot; filter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!monthcarouselreverse]first[]]&quot;&gt;
-                &lt;$action-setfield $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot; $field=&quot;month&quot; $value=&lt;&lt;selectedMonth&gt;&gt;/&gt;
-                &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot; $field=&quot;monthcarouselforward&quot; $subfilter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allafter&lt;selectedMonth&gt;]&quot;/&gt;
-                &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot; $field=&quot;monthcarouselreverse&quot; $subfilter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allbefore&lt;selectedMonth&gt;]&quot;/&gt;
-                &lt;$action-setfield $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot; $field=&quot;year&quot; $value=&lt;&lt;yearForward&gt;&gt;/&gt;
-&lt;i class=&quot;far fa-caret-square-right fa-2x&quot;&gt;&lt;/i&gt;
-            &lt;/$set&gt;
-        &lt;/$button&gt;
-    &lt;/$reveal&gt;
-\end
-
-\define reverseMonth()
-    &lt;$reveal type=&quot;nomatch&quot; state=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!month&quot; text=&quot;January&quot;&gt;
-        &lt;$button class=&quot;tc-btn-invisible&quot;&gt;
-            &lt;$set name=&quot;selectedMonth&quot; filter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!monthcarouselreverse]last[]]&quot;&gt;
-                &lt;$action-setfield $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot; $field=&quot;month&quot; $value=&lt;&lt;selectedMonth&gt;&gt;/&gt;
-                &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot; $field=&quot;monthcarouselforward&quot; $subfilter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allafter&lt;selectedMonth&gt;]&quot;/&gt;
-                &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot; $field=&quot;monthcarouselreverse&quot; $subfilter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allbefore&lt;selectedMonth&gt;]&quot;/&gt;
-&lt;i class=&quot;far fa-caret-square-left fa-2x&quot;&gt;&lt;/i&gt;
-            &lt;/$set&gt;
-        &lt;/$button&gt;
-    &lt;/$reveal&gt;
-    &lt;$reveal type=&quot;match&quot; state=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!month&quot; text=&quot;January&quot;&gt;
-        &lt;$button class=&quot;tc-btn-invisible&quot;&gt;
-            &lt;$set name=&quot;selectedMonth&quot; filter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!monthcarouselforward]last[]]&quot;&gt;
-                &lt;$action-setfield $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot; $field=&quot;month&quot; $value=&lt;&lt;selectedMonth&gt;&gt;/&gt;
-                &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot; $field=&quot;monthcarouselforward&quot; $subfilter=&quot;[list[tasktemplate/button6!!monthsofyear]] +[allafter&lt;selectedMonth&gt;]&quot;/&gt;
-                &lt;$action-listops $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot; $field=&quot;monthcarouselreverse&quot; $subfilter=&quot;[list[$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6!!monthsofyear]] +[allbefore&lt;selectedMonth&gt;]&quot;/&gt;
-                &lt;$action-setfield $tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar&quot; $field=&quot;year&quot; $value=&lt;&lt;yearReverse&gt;&gt;/&gt;
-&lt;i class=&quot;far fa-caret-square-left fa-2x&quot;&gt;&lt;/i&gt;
-            &lt;/$set&gt;
-        &lt;/$button&gt;
-    &lt;/$reveal&gt;
-\end
-
-\define title() 
-{{!!month}}, {{!!year}}
-\end
-&lt;div style=&quot;text-align:center; background-color:white; margin: 2px; padding:2px; border-style:solid; border-width:1px;&quot;&gt;
-&lt;$wikify name=&quot;yearForward&quot; text={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!yearforward}}&gt;
-    &lt;$wikify name=&quot;yearReverse&quot; text={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!yearreverse}}&gt;
-        &lt;&lt;reverseMonth&gt;&gt;      &lt;&lt;title&gt;&gt; 
-     &lt;&lt;forwardMonth&gt;&gt;
-    &lt;/$wikify&gt;
-&lt;/$wikify&gt;
-
-    &lt;$calendar-month year={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!year}} month={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button6/calendar!!month}} day_macro=DueDateCreate class=calendar-tablesmall/&gt;
-&lt;/div&gt;
-
-</pre>
-</div>
-<div created="20181217025147249" creator="schulerbot" list-after="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button4" modified="20190108030433686" modifier="schulerbot" tags="tasksubmenu taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button7">
+<div created="20181217025147249" creator="schulerbot" list-after="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button4" modified="20190114022810909" modifier="schulerbot" tags="tasksubmenu taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button7">
 <pre>&lt;$tiddler tiddler=&lt;&lt;taskObject&gt;&gt;&gt;
 &lt;$wikify name=&quot;tomorrowDate&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;tomorrow&quot; today=&lt;&lt;dayTag&gt;&gt;/&gt;&quot;&quot;&quot;&gt;
 &lt;$reveal type=&quot;nomatch&quot; state=&quot;!!complete&quot; text=&quot;yes&quot;&gt;
@@ -10681,7 +10067,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
 &lt;/$tiddler&gt;
 </pre>
 </div>
-<div created="20181217024859955" creator="schulerbot" modified="20190108030441682" modifier="schulerbot" tags="taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button8">
+<div created="20181217024859955" creator="schulerbot" modified="20190114022819510" modifier="schulerbot" tags="taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button8">
 <pre>\define taskButton()
     &lt;$button popup=&lt;&lt;qualify &quot;$:/state/TW5Tasks/menu&quot;&gt;&gt; tooltip=&quot;menu&quot; class=&quot;tc-btn-task-right tc-btn-invisible&quot;&gt;
 &lt;i class=&quot;fas fa-bars fa-2x&quot; style=&quot;color:black&quot;&gt;&lt;/i&gt;
@@ -10697,7 +10083,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
             &lt;&lt;taskButton&gt;&gt;
 &lt;/$tiddler&gt;</pre>
 </div>
-<div created="20181217025115482" creator="Schulerbot" list-after="tasktemplate/button5" modified="20190108030451015" modifier="schulerbot" tags="tasksubmenu taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button9">
+<div created="20181217025115482" creator="Schulerbot" list-after="tasktemplate/button5" modified="20190114022826463" modifier="schulerbot" tags="tasksubmenu taskbutton" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button9">
 <pre>&lt;$tiddler tiddler=&lt;&lt;taskObject&gt;&gt;&gt;
 &lt;$reveal type=&quot;nomatch&quot; state=&quot;!!complete&quot; text=&quot;yes&quot;&gt;
     &lt;$reveal type=&quot;match&quot; state=&quot;!!recurringfrequency&quot; text=&quot;&quot;&gt;
@@ -10717,50 +10103,6 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
 &lt;/$reveal&gt;
 &lt;/$tiddler&gt;
 </pre>
-</div>
-<div created="20181217025219611" creator="Schulerbot" datetype="frequency" modified="20190108031828901" modifier="schulerbot" recurring1="4" recurring2="weeks" recurringfrequency="weekly" title="$:/plugins/schulerbot/TW5Tasks/tasktemplate/button9/selector">
-<pre>\define select-actions(text1, text2)
-&lt;$action-setfield $field=&quot;recurringfrequency&quot; $value=&quot;$text1$$text2$&quot;/&gt;
-\end
-
-&lt;div style=&quot;background-color:white; padding:5px; margin:7px;border-style:solid; border-width:1px;&quot;&gt;
-&lt;$button class=&quot;tc-btn-invisible&quot;&gt;
-    &lt;$action-deletetiddler $filter=&quot;[prefix[$:/state/TW5Tasks/recurring]]&quot;/&gt;
-    &lt;i class=&quot;far fa-window-close&quot; style=&quot;color:black&quot;&gt;&lt;/i&gt;
-&lt;/$button&gt;
-
-&lt;$radio field=&quot;datetype&quot; value=&quot;frequency&quot;&gt;Frequency&lt;/$radio&gt;
-&lt;$radio field=&quot;datetype&quot; value=&quot;every&quot;&gt;Every so often&lt;/$radio&gt;
-
-&lt;$tiddler tiddler=&lt;&lt;taskObject&gt;&gt;&gt;
-&lt;$reveal type=&quot;nomatch&quot; state=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button9/selector!!datetype&quot; text=&quot;every&quot;&gt;
-&lt;$select field=&quot;recurringfrequency&quot;&gt;
-&lt;option&gt;&lt;/option&gt;
-&lt;option&gt;daily&lt;/option&gt;
-&lt;option&gt;weekly&lt;/option&gt;
-&lt;option&gt;monthly&lt;/option&gt;
-&lt;option&gt;weekdays&lt;/option&gt;
-&lt;/$select&gt;
-&lt;/$reveal&gt;
-&lt;$reveal type=&quot;match&quot; state=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button9/selector!!datetype&quot; text=&quot;every&quot;&gt;
-&lt;$text text=&quot;Every&quot;/&gt;&lt;$select tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button9/selector&quot; field=&quot;recurring1&quot; actions=&quot;&quot;&quot;&lt;$macrocall $name=select-actions text1={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button9/selector!!recurring1}} text2={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button9/selector!!recurring2}}/&gt;&quot;&quot;&quot;
-&lt;option&gt;&lt;/option&gt;
-&lt;option&gt;2&lt;/option&gt;
-&lt;option&gt;3&lt;/option&gt;
-&lt;option&gt;4&lt;/option&gt;
-&lt;option&gt;5&lt;/option&gt;
-&lt;option&gt;6&lt;/option&gt;
-&lt;/$select&gt;&lt;$select tiddler=&quot;$:/plugins/schulerbot/TW5Tasks/tasktemplate/button9/selector&quot; field=&quot;recurring2&quot; actions=&quot;&quot;&quot;&lt;$macrocall $name=select-actions text1={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button9/selector!!recurring1}} text2={{$:/plugins/schulerbot/TW5Tasks/tasktemplate/button9/selector!!recurring2}}/&gt;&quot;&quot;&quot;
-&lt;option&gt;&lt;/option&gt;
-&lt;option&gt;days&lt;/option&gt;
-&lt;option&gt;weeks&lt;/option&gt;
-&lt;option&gt;months&lt;/option&gt;
-&lt;option&gt;years&lt;/option&gt;
-&lt;/$select&gt;
-&lt;/$reveal&gt;
-
-&lt;/$tiddler&gt;
-&lt;/div&gt;</pre>
 </div>
 <div author="TheDiveO" core-version="&gt;=5.1.0" created="20140901105647564" creator="Schulerbot" description="FontAwesome embedded font support for TW5" fa-version="5.3.1" list="readme license history" modified="20181217033008178" modifier="Schulerbot" plugin-type="plugin" source="https://github.com/TheDiveO/TW5FontAwesome" tags="TW5FontAwesome Utilities" title="$:/plugins/TheDiveO/FontAwesome" type="application/json" version="1.2.16">
 <pre>{
@@ -10992,8 +10334,14 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
 <div created="20190107025547542" creator="schulerbot" modified="20190109032201730" modifier="schulerbot" title="$:/SiteTitle">
 <pre>TW5Tasks - Github</pre>
 </div>
-<div created="20190108025004250" modified="20190108031916809" title="$:/state/plugin-info--1087675988-$:/plugins/schulerbot/TW5Tasks--1645022145">
+<div created="20190108025004250" creator="schulerbot" modified="20190114025355549" modifier="schulerbot" title="$:/state/plugin-info--1087675988-$:/plugins/schulerbot/TW5Tasks--1645022145">
 <pre>readme</pre>
+</div>
+<div created="20190114024608725" creator="schulerbot" modified="20190114024608725" modifier="schulerbot" title="$:/state/plugin-info--896887961-$:/plugins/schulerbot/TW5Tasks">
+<pre>yes</pre>
+</div>
+<div created="20190114024614232" creator="schulerbot" modified="20190114024614232" modifier="schulerbot" title="$:/state/plugin-info--896887961-$:/plugins/schulerbot/TW5Tasks--683111548">
+<pre>config</pre>
 </div>
 <div created="20190108025142148" modified="20190108025145240" title="$:/state/plugin-info-1332388478-$:/plugins/inmysocks/Calendar---1929150102">
 <pre>contents</pre>
@@ -11004,22 +10352,22 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
 <div created="20190108025624034" modified="20190108025624034" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div created="20190108030459311" modified="20190108030500326" title="$:/state/sidebar">
+<div created="20190108030459311" creator="schulerbot" modified="20190114021925743" modifier="schulerbot" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20190108032059690" modified="20190108032059690" title="$:/state/tab--1963855381">
-<pre>$:/core/ui/ControlPanel/Toolbars</pre>
+<div created="20190108032059690" creator="schulerbot" modified="20190114024514930" modifier="schulerbot" title="$:/state/tab--1963855381">
+<pre>$:/core/ui/ControlPanel/Palette</pre>
 </div>
-<div created="20190109032130676" creator="schulerbot" modified="20190109032131850" modifier="schulerbot" title="$:/state/tab--2112689675">
-<pre>$:/core/ui/ControlPanel/Basics</pre>
+<div created="20190109032130676" creator="schulerbot" modified="20190114024407080" modifier="schulerbot" title="$:/state/tab--2112689675">
+<pre>$:/core/ui/ControlPanel/Advanced</pre>
 </div>
-<div created="20190108032058458" creator="schulerbot" modified="20190109032138634" modifier="schulerbot" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Info</pre>
+<div created="20190108032058458" creator="schulerbot" modified="20190114024602810" modifier="schulerbot" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Plugins</pre>
 </div>
 <div created="20190108024936817" modified="20190108024936817" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Plugins</pre>
 </div>
-<div created="20190108024934875" modified="20190108024934875" title="$:/state/tab/sidebar--595412856">
+<div created="20190108024934875" creator="schulerbot" modified="20190114025136337" modifier="schulerbot" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/More</pre>
 </div>
 <div created="20190108032101648" modified="20190108032101648" title="$:/state/tabs/controlpanel/toolbars-1345989671">
@@ -11028,7 +10376,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
 <div created="20190109032125263" creator="s" modified="20190109032126411" modifier="schulerbo" title="$:/status/UserName">
 <pre>schulerbot</pre>
 </div>
-<div list="Home" title="$:/StoryList">
+<div created="20190114024343396" creator="schulerbot" list="Home" modified="20190114024653476" modifier="schulerbot" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -11044,7 +10392,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///C:/Users/Mike%20Schuler/iCloudDrive/iCloud~com~cjhunt~quine/Git/TW5-Tasks/index.html&quot;
+            &quot;text&quot;: &quot;file:///C:/Users/MIKESC~1/AppData/Local/Temp/index.html&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
@@ -11064,7 +10412,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/C:/Users/Mike%20Schuler/iCloudDrive/iCloud~com~cjhunt~quine/Git/TW5-Tasks/index.html&quot;
+            &quot;text&quot;: &quot;/C:/Users/MIKESC~1/AppData/Local/Temp/index.html&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -11072,7 +10420,7 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
         },
         &quot;$:/info/url/origin&quot;: {
             &quot;title&quot;: &quot;$:/info/url/origin&quot;,
-            &quot;text&quot;: &quot;file://&quot;
+            &quot;text&quot;: &quot;null&quot;
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
@@ -11194,25 +10542,39 @@ Select month: &lt;$select field='month'&gt;&lt;$list filter='1 2 3 4 5 6 7 8 9 1
     }
 }</pre>
 </div>
-<div created="20190107025726361" creator="schulerbot" modified="20190110035110263" modifier="schulerbot" tags="" title="Home">
+<div created="20190114024459851" creator="schulerbot" modified="20190114024500088" modifier="schulerbot" title="$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint">
+<pre>900px</pre>
+</div>
+<div created="20190114024503404" creator="schulerbot" modified="20190114024507502" modifier="schulerbot" title="$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth">
+<pre>500px</pre>
+</div>
+<div created="20190114024434063" creator="schulerbot" modified="20190114024456127" modifier="schulerbot" title="$:/themes/tiddlywiki/vanilla/metrics/tiddlerwidth">
+<pre>770px</pre>
+</div>
+<div created="20190114024443895" creator="schulerbot" modified="20190114024443895" modifier="schulerbot" title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
+<pre>fluid-fixed</pre>
+</div>
+<div created="20190107025726361" creator="schulerbot" modified="20190114025251904" modifier="schulerbot" tags="" title="Home">
 <pre>Hi! 
 
-If you've found here somehow, this is a test repo-setup for a [[Tiddlywiki|https://tiddlywiki.com]] plugin project.  The tool is still in beta, but its here if you want to try it out and give me feedback.  I will eventually create another &quot;home&quot; repo that will link to here.
+If you've found here somehow, this is a test repo-setup for a [[Tiddlywiki|https://tiddlywiki.com]] plugin project.  The [[tool|$:/plugins/schulerbot/TW5Tasks]] is still in beta, but its here if you want to [[demo|Task Dashboard]] it out and give me feedback.
 
-The plugin is [[here|$:/plugins/schulerbot/TW5Tasks]]
+&lt;b&gt;I wouldn't recommend putting it in your tiddlywiki. &lt;br&gt;Make sure you read the [[dependencies|$:/plugins/schulerbot/TW5Tasks/license]]&lt;/b&gt;. &lt;br&gt;
 
-&quot;Demo&quot; taskboard is [[here|Task Dashboard]]
+I will eventually create another &quot;home&quot; repo that will link to here.
 
-here's some notes:
-&lt;h3&gt;Planned upgrades for v0.1.0-beta&lt;/h3&gt;
+{{$:/plugins/schulerbot/TW5Tasks/readme}}
 
-&lt;i class=&quot;far fa-check-circle&quot;&gt;&lt;/i&gt; Figure out github and make a page for this&lt;br&gt;
-&lt;i class=&quot;far fa-check-circle&quot;&gt;&lt;/i&gt; Stylesheet config functionality&lt;br&gt;
-&lt;i class=&quot;far fa-arrow-alt-circle-down&quot;&gt;&lt;/i&gt; &lt;s&gt;&lt;b&gt;BUG:&lt;/b&gt; Stylesheet Icon size for buttons not working&lt;/s&gt;&lt;br&gt;
-&lt;li&gt; &lt;b&gt;CONFIRM COMPLETE: &lt;/b&gt;Get rid of old way of doing actions, and use new way with creating macros and writing to &quot;actions&quot; attribute of object.&lt;/li&gt;
-&lt;li&gt; &lt;b&gt;BUG:&lt;/b&gt; Figure out plugin loading problem where I have to edit all buttons to use them, then installing new plugin doesn't overwrite them &lt;/li&gt;
-&lt;li&gt; &lt;b&gt;BUG:&lt;/b&gt; button5 calendar button not closing menu when selection happens &lt;/li&gt;
-&lt;li&gt; &lt;b&gt;BUG:&lt;/b&gt; button6 calendar closing menu when cycling months &lt;/li&gt;
+---
+
+&lt;h3&gt;Planned upgrades for v0.1.2-beta &lt;/h3&gt;
+&lt;h4&gt;This will only happen if I figure these out before I finish what I want to do for v0.2.0 but definitely by v.0.2.0. &lt;/h4&gt;
+
+&lt;li&gt; Complete fixing all instances of using &quot;actions&quot;
+ wrong&lt;/li&gt;
+&lt;li&gt; Make it so the plugin works &quot;out of the box&quot;
+ without needing to click on each task button to turn it into a shadow? tiddler&lt;/li&gt;
+
 
 &lt;h3&gt;Planned upgrades for v0.2.0-beta&lt;/h3&gt;
 
@@ -11225,6 +10587,12 @@ schulerbot@gmail.com&lt;br&gt;
 
 Atlanta
 </pre>
+</div>
+<div complete="no" created="20190114022128126" creator="schulerbot" modified="20190114022206036" modifier="schulerbot" recurringfrequency="daily" tags="SampleTask" title="Morning Mobility Stretches">
+<pre></pre>
+</div>
+<div complete="no" created="20190114021927696" creator="schulerbot" modified="20190114022114741" modifier="schulerbot" recurringfrequency="" tags="SampleTask" title="Pickup kids at Timmy's House">
+<pre></pre>
 </div>
 <div complete="no" created="20190108031749994" modified="20190108031831001" recurringfrequency="daily" tags="Task" title="Recurring Task">
 <pre>!Do:</pre>
@@ -11270,6 +10638,9 @@ Hide Forever
 
 &lt;/$wikify&gt;
 </pre>
+</div>
+<div caption="Turn in TPS Reports" complete="yes" created="20190114022214573" creator="schulerbot" modified="20190114022331436" modifier="schulerbot" recurringfrequency="" tags="SampleTask" title="Time Completed">
+<pre></pre>
 </div>
 
 </div>
